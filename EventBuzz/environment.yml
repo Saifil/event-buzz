@@ -1,0 +1,13 @@
+name: rtes
+dependencies:
+- python=3.7
+- matplotlib=3.0.3
+- numpy=1.16.3
+- pandas=0.24.2
+- pyparsing=2.4.0
+- python-dateutil=2.8.0
+- scipy=1.2.1
+- pip
+- requests
+- pip:
+  - bs4
