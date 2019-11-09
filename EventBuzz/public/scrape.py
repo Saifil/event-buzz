@@ -15,20 +15,19 @@ def write_to_csv(row_list):
         csv_writer.writerows(row_list)
         csv_file.close()
 
-def main():
-    # To calculate the runtime of the program
-    start_time = time.time()
 
-    global FILE_NAME
-    if len(sys.argv) > 1:
-        FILE_NAME = str(sys.argv[1])
+def scrape_events():
 
     # Prep the get request
     headers = {"User-Agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, "
                              "like Gecko) Chrome/77.0.3865.90 Mobile Safari/537.36"}
     # url = "https://www.calendar.gatech.edu/events/day/2019-10-01"
-    url = "https://www.calendar.gatech.edu/events/day/2019-08-11"  # Aug 11 
-    csv_row = [["title", "description", "category", "location", "image_url", "related_link", "st_date", "end_date", "st_time", "end_time"]]
+    url = "https://www.calendar.gatech.edu/events/day/2019-08-11"  # Aug 11 (Start of Semester)
+    # url = "https://www.calendar.gatech.edu/events/day/2019-08-31"  # Aug 31
+
+    csv_row = [
+        ["title", "description", "category", "location", "image_url", "related_link", "st_date", "end_date", "st_time",
+         "end_time"]]
 
     res = requests.get(url, headers=headers)  # Get the response
     soup = BeautifulSoup(res.text, features="html.parser")  # Get the html page
@@ -36,8 +35,8 @@ def main():
 
     i = 1
     month = url.split("-", 3)[1]
-    # while month != "01":  # Months till Dec 2019
-    while month != "09":  # Month of Aug
+    while month != "01":  # Months till Dec 2019
+    # while month != "09":  # Month of Aug
         for elem in event_list:
             date = elem.find(class_="date").text
             ttime = elem.find(class_="time").text
@@ -61,7 +60,7 @@ def main():
             except ValueError:
                 st_time = "00:00"
                 end_time = "23:59"
-                
+
             cat = ""
             category_list = elem.find(class_="tags")
             if category_list is not None:
@@ -82,7 +81,8 @@ def main():
                 related_link = ""
 
             csv_row.append([elem.find(class_="small-12 columns info").a.text, elem.find(class_="description").text,
-                            cat, elem.find(class_="location").text, image_url, related_link, st_date, end_date, st_time, end_time])
+                            cat, elem.find(class_="location").text, image_url, related_link, st_date, end_date, st_time,
+                            end_time])
 
         url = soup.find(title="Navigate to next day")["href"]
         month = url.split("-", 3)[1]
@@ -92,10 +92,21 @@ def main():
         print(i, month)
         i = i + 1
 
-    # Debug
-    print(csv_row)
+    return csv_row
 
-    write_to_csv(csv_row)
+
+def main():
+    # To calculate the runtime of the program
+    start_time = time.time()
+
+    global FILE_NAME
+    if len(sys.argv) > 1:
+        FILE_NAME = str(sys.argv[1])
+
+    # Debug
+    print(scrape_events())
+
+    # write_to_csv(csv_row)
 
     print("--Program run time: %s seconds" % round((time.time() - start_time)))
 
