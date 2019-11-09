@@ -11,3 +11,5 @@ dependencies:
 - requests
 - pip:
   - bs4
+  - pymongo
+  - mongoengine
