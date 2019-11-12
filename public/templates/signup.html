@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Real Time Systems Project</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="../static/img/favicon.png" rel="icon">
+  <link href="../static/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="../static/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="../static/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="../static/lib/animate/animate.min.css" rel="stylesheet">
+  <link href="../static/lib/venobox/venobox.css" rel="stylesheet">
+  <link href="../static/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="../static/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+    Theme Name: TheEvent
+    Theme URL: https://bootstrapmade.com/theevent-conference-event-bootstrap-template/
+    Author: BootstrapMade.com
+    License: https://bootstrapmade.com/license/
+  ======================================================= -->
+</head>
+
+<body>
+
+  <!--==========================
+    Header
+  ============================-->
+  <header id="header">
+    <div class="container">
+
+      <div id="logo" class="pull-left">
+        <!-- Uncomment below if you prefer to use a text logo -->
+        <!-- <h1><a href="#main">C<span>o</span>nf</a></h1>-->
+      </div>
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li ><a href="index.html">Home</a></li>
+          <li><a class="menu-active" href="signup.html">Sign Up</a></li>
+          <li><a href="login.html">Login</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav><!-- #nav-menu-container -->
+    </div>
+  </header><!-- #header -->
+
+  <!--==========================
+    Intro Section
+  ============================-->
+  <section id="schedule" class="section-with-bg">
+      <div class="container wow fadeInUp">
+        <div class="section-header">
+          <h2>SIGN UP </h2>
+        </div>
+  <!-- <section id="intro">
+    <div class="intro-container wow fadeIn">
+      <h1 class="mb-4 pb-0">Who  <span>cares?</span> </h1>
+      
+    </div>
+  </section>
+
+  <main id="main"> -->
+
+    <!--==========================
+      About Section
+    ============================-->
+    
+
+    
+    <!--==========================
+      Schedule Section
+    ============================-->
+    
+
+    <!--==========================
+      Subscribe Section
+    ============================-->
+   
+
+    <!--==========================
+      Buy Ticket Section
+    ============================-->
+    
+
+
+    <!--==========================
+      SignUp Section
+    ============================-->
+    <section id="contact" class="section-bg wow fadeInUp">
+
+      <div class="container">
+        <p> Already a member? <a href="{{ url_for('login') }}">Log In</a> here!
+<br>
+        <div class="form">
+          <div id="sendmessage">Your message has been sent. Thank you!</div>
+          <div id="errormessage"></div>
+          <form method=POST action="{{ url_for('register') }}">
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                Name: <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group col-md-6">
+                Email: <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group col-md-6">
+                Password: <input type="password" class="form-control" name="password" id="password" placeholder="Choose a password" data-rule="minlen:8" />
+                <div class="validation"></div>
+            </div>
+            <div class="form-group col-md-6">
+                Age: <input type="number" class="form-control" name="age" id="age" placeholder="Your age" data-rule="minlen:2" />
+                <div class="validation"></div>
+            </div>
+            <div class="form-group col-md-6">
+              Education: <select name="educ">
+                <option value="Masters">Masters</option>
+                <option value="Bachelors">Bachelors</option>
+              </select>  
+            </div>
+                        <div class="form-group col-md-6">
+              Major: <select name="major">
+                <option value="CS">Computer Science</option>
+                <option value="CSE">Comp. Sci and Engineering</option>
+                <option value="MBA">MBA - Scheller College</option>
+                <option value="ECE">Electrical and Comp. Eng</option>
+              </select>  
+            </div>
+<!--             <div class="form-group col-md-6">-->
+<!--              Interests: <select multiple>-->
+<!--                <option value="Sports">Sports</option>-->
+<!--                <option value="TVshows">TV Shows</option>-->
+<!--              </select>  -->
+<!--            </div>-->
+<!--<div class="form-group col-md-6">-->
+<!--              Career Interests: <select multiple>-->
+<!--                <option value="ANP">Arts and Performances</option>-->
+<!--                <option value="Conferences">Conferences</option>-->
+<!--                <option value="Trainings">Trainings</option>-->
+<!--                <option value="Athletics">Athletics</option>-->
+
+<!--              </select>  -->
+<!--            </div>-->
+            </div>
+              
+
+
+
+            <div class="form-group">
+            <div class="text-center"><button type="submit">Sign Up</button></div>
+          </form>
+        </div>
+
+
+        
+
+
+        
+      </div>
+    </section><!-- #contact -->
+
+  </main>
+
+
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-info">
+            <img src="../static/img/logo.png" alt="TheEvenet">
+            <p>A CS 6235 project to match students with events that might interest them</p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="fa fa-angle-right"></i> <a href="index.html">Home</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="signup.html">Sign Up</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="login.html">Login</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h4>Contact Us</h4>
+            <p>
+              Georgia Institute of Technology <br>
+              Atlanta, GA<br>
+              United States <br>
+              <strong>Phone:</strong> +1 123 4567 89<br>
+              <strong>Email:</strong> info@example.com<br>
+            </p>
+
+            <div class="social-links">
+              <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+              <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+              <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+              <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
+              <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    
+
+  <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
+
+  <!-- JavaScript Libraries -->
+  <script src="../static/lib/jquery/jquery.min.js"></script>
+  <script src="../static/lib/jquery/jquery-migrate.min.js"></script>
+  <script src="../static/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../static/lib/easing/easing.min.js"></script>
+  <script src="../static/lib/superfish/hoverIntent.js"></script>
+  <script src="../static/lib/superfish/superfish.min.js"></script>
+  <script src="../static/lib/wow/wow.min.js"></script>
+  <script src="../static/lib/venobox/venobox.min.js"></script>
+  <script src="../static/lib/owlcarousel/owl.carousel.min.js"></script>
+
+  <!-- Contact Form JavaScript File -->
+  <script src="../static/contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="../static/js/main.js"></script>
+</body>
+
+</html>

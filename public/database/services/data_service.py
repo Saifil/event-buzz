@@ -28,5 +28,8 @@ def insert_events(event_document_list):
     return ret
 
 def get_all_event_data():
-    events = Event.objects()
+    events = Event.objects().filter()
+
+    # TODO: Remove
+    # events = Event.objects(image_url__ne="gatech_logo.png")
     return events
