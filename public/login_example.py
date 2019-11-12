@@ -18,7 +18,6 @@ def index():
     #     # redirect user to his event page
     #     return 'You are logged in as ' + session['email']
 
-
     return render_template('index.html')
     # return render_template('signup.html')
     # return render_template('login.html')
@@ -41,12 +40,12 @@ def login():
     return render_template('login.html')
 
 
-
 @app.route('/events', methods=['POST', 'GET'])
 def events():
     event_list = svc.get_all_event_data()
 
     return render_template('event_data.html', data=event_list[:5])
+
 
 @app.route('/register', methods=['POST', 'GET'])
 def register():
