@@ -15,6 +15,7 @@ def insert_events():
 
     event_list = scrape.scrape_events()  # Scrape web for event dataset
     for event in event_list[1:]:
+        print(event)
         # To datetime: 'Saturday, August 31, 2019'
         event[6] = datetime.strptime(event[6], '%A, %B %d, %Y')
         event[7] = datetime.strptime(event[7], '%A, %B %d, %Y')
@@ -25,7 +26,7 @@ def insert_events():
 
         # # get the object for each event
         event_document_list.append(Event(event[0], event[1], event[2], event[3],
-                                         event[4], event[5], event[6], event[7], event[8], event[8]))
+                                         event[4], event[5], event[6], event[7], event[8], event[9]))
     # print(event_document_list)
     ret = svc.insert_events(event_document_list)
     if not ret:
