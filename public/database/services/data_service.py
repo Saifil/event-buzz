@@ -1,11 +1,15 @@
 from database.data.user import User
 from database.data.event import Event
 
-def create_new_user(first_name, last_name, email):
+def create_new_user(name, email, password, age, educ, major):
     usr = User()
-    usr.first_name = first_name
-    usr.last_name = last_name
+
+    usr.name = name
     usr.email = email
+    usr.password = password
+    usr.age = age
+    usr.educ = educ
+    usr.major = major
 
     usr.save()
     return usr
@@ -15,8 +19,8 @@ def create_multiple_users(user_document_list):
     return usrs
 
 
-def get_user_info(email):
-    usr = User.objects().filter(email=email).first()
+def get_user_info(email, password):
+    usr = User.objects().filter(email=email, password=password).first()
     return usr
 
 def insert_events(event_document_list):

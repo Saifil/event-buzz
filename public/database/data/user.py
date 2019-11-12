@@ -1,14 +1,15 @@
 import mongoengine
-from database.data.book import Book
 
 # This is an object file for creating the Document structure
 
 class User(mongoengine.Document):
-    first_name = mongoengine.StringField(required=True)
-    last_name = mongoengine.StringField()
+    name = mongoengine.StringField(required=True)
     email = mongoengine.StringField(required=True)
+    password = mongoengine.StringField(required=True)
+    age = mongoengine.IntField(required=True, min=16)
 
-    currently_issued_books = mongoengine.EmbeddedDocumentListField(Book)
+    educ = mongoengine.StringField(required=True)
+    major = mongoengine.StringField(required=True)
 
     meta = {
         'db_alias': 'core',

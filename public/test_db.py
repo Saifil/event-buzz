@@ -7,41 +7,61 @@ from database.data.user import User
 import scrape
 
 
+# Signup
 def create_new_user():
     print("==================Please enter you details=================")
 
-    first_name = input("Enter you first name\n")
-    last_name = input("Enter you last name\n")
-    email = input("Enter you email")
+    name = input("Enter your name\n")
+    email = input("Enter your email\n")
+    password = input("Enter your password\n")
+    age = int(input("Enter your age\n"))
 
-    state.active_account = svc.create_new_user(first_name, last_name, email)
-    print()
-    print(state.active_account.id)
+    educ = input("Enter your education\n")
+    major = input("Enter your major\n")
 
+    state.active_account = svc.create_new_user(name, email, password, age, educ, major)
 
-def create_multiple_users():
-    user_document_list = [User("AAA", "123", "aaa@mail.com"), User("BBB", "456", "bbb@mail.com"),
-                          User("CCC", "789", "ccc@mail.com"), User("DDD", "101", "ddd@mail.com")]
-    usrs = svc.create_multiple_users(user_document_list)
+# Login
+def user_login():
+    print("==================Please enter you Credentials=================")
 
+    email = input("Enter your email\n")
+    password = input("Enter your password\n")
 
-def get_user_info():
-    print("==================Please enter user email=================")
-
-    email = input("Enter the email\n")
-
-    query_user = svc.get_user_info(email)
-    if query_user:
-        print(query_user.first_name)
+    query_user = svc.get_user_info(email, password)
+    if query_user is not None:
+        print(f"User with name {query_user.name} Logged In.")
     else:
-        print(f"User with email {email} not found.")
+        print("Invalid credentials.")
+
+
+def get_all_event_data():
+    event_list = svc.get_all_event_data()
+    for event in event_list[:5]:
+        print(f"Event name: {event.title}")
+
+
+# def create_multiple_users():
+#     user_document_list = [User("AAA", "123", "aaa@mail.com"), User("BBB", "456", "bbb@mail.com"),
+#                           User("CCC", "789", "ccc@mail.com"), User("DDD", "101", "ddd@mail.com")]
+#     usrs = svc.create_multiple_users(user_document_list)
 
 def main():
     mongo_setup.global_init()  # Connect to the db
-    scrape.save_to_csv()
+
+    if state.active_account is None:
+        print("No active session")
+
+    # scrape.save_to_csv()
+
+    # Login-signup
     # create_new_user()
-    # get_user_info()
-    # create_multiple_users()
+    # user_login()  # login the user
+
+    if state.active_account is not None:
+        print(f"Active session {state.active_account}")
+
+    get_all_event_data()
 
     return 0
 
