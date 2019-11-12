@@ -13,3 +13,5 @@ dependencies:
   - bs4
   - pymongo
   - mongoengine
+  - flask
+  - Flask-PyMongo
