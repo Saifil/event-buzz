@@ -8,7 +8,6 @@ conda env create -f environment.yml
 
 
 ### Usage
-Set up virtual environment
 ```
 source activate rtes
 cd public
