@@ -4,6 +4,7 @@ import database.infrastructure.state as state
 
 # Test multiple record insertion
 from database.data.user import User
+import scrape
 
 
 def create_new_user():
@@ -35,12 +36,13 @@ def get_user_info():
     else:
         print(f"User with email {email} not found.")
 
-
 def main():
     mongo_setup.global_init()  # Connect to the db
+    scrape.save_to_csv()
     # create_new_user()
     # get_user_info()
-    create_multiple_users()
+    # create_multiple_users()
+
     return 0
 
 

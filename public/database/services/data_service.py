@@ -1,7 +1,6 @@
 from database.data.user import User
 from database.data.event import Event
 
-
 def create_new_user(first_name, last_name, email):
     usr = User()
     usr.first_name = first_name
@@ -23,3 +22,7 @@ def get_user_info(email):
 def insert_events(event_document_list):
     ret = Event.objects().insert(event_document_list)
     return ret
+
+def get_all_event_data():
+    events = Event.objects()
+    return events

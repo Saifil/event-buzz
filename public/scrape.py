@@ -94,6 +94,10 @@ def scrape_events():
 
     return csv_row
 
+def save_to_csv():
+    event_row = scrape_events()
+    write_to_csv(event_row)
+
 
 def main():
     # To calculate the runtime of the program
