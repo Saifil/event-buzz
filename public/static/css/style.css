@@ -54,6 +54,10 @@ h6 {
   visibility: hidden;
 }
 
+
+#tooltip1 { position: relative; }
+#tooltip1 a span { display: none; color: #FFFFFF; }
+#tooltip1 a:hover span { display: block; position: relative; width: 300px; background: #aaa; height: 300px; top: 20px; color: #FFFFFF; padding: 0 5px; }
 /* Prelaoder */
 
 #preloader {
@@ -716,7 +720,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   right: 0;
   text-align: center;
   padding-top: 10px;
-  transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+  /*transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);*/
 }
 
 #speakers .speaker .details h3 {
