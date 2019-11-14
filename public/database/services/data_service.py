@@ -33,3 +33,7 @@ def get_all_event_data():
     # TODO: Remove
     # events = Event.objects(image_url__ne="gatech_logo.png")
     return events
+
+def get_events_by_clusters(cluster=0):
+    events = Event.objects().filter(cluster_number=cluster)
+    return events

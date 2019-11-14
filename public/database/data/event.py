@@ -14,6 +14,7 @@ class Event(mongoengine.Document):
     end_date = mongoengine.DateTimeField()
     st_time = mongoengine.IntField(required=True)
     end_time = mongoengine.IntField()
+    cluster_number = mongoengine.IntField(default=0)
 
     meta = {
         'db_alias': 'core',
