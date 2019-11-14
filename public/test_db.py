@@ -41,12 +41,15 @@ def get_all_event_data():
         print(f"Event name: {event.title}")
 
 def generate_bert_input():
-    output_txt_file = open("output/input.txt", "a")
+    # output_txt_file = open("output/input.txt", "a")
+    output_txt_file = open("output/input_distinct.txt", "a")
 
-    event_list = svc.get_all_event_data()
+    # event_list = svc.get_all_event_data()
+    event_list = svc.get_unique_descriptions()
     for event in event_list:
-        output_txt_file.write(event.description + "\n")
-
+        # output_txt_file.write(event.description + "\n")
+        output_txt_file.write(event + "\n")
+        # print(event)
     output_txt_file.close()
 
 
@@ -77,9 +80,10 @@ def main():
 
     # generate_bert_input()
 
-    get_events_by_clusters()
+    # get_events_by_clusters()
 
     # get_all_event_data()
+
 
     return 0
 
