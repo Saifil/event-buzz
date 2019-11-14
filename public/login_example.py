@@ -44,7 +44,7 @@ def login():
 def events():
     event_list = svc.get_all_event_data()
 
-    return render_template('event_data.html', data=event_list[:5])
+    return render_template('event_data.html', data=event_list[:6])
 
 
 @app.route('/register', methods=['POST', 'GET'])

@@ -1,4 +1,4 @@
-name: rtes
+name: rtes_up
 dependencies:
 - python=3.7
 - matplotlib=3.0.3
