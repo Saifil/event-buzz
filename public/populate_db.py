@@ -15,7 +15,7 @@ def insert_events():
 
     event_list = scrape.scrape_events()  # Scrape web for event dataset
     for event in event_list[1:]:
-        print(event)
+        # print(event)
         # To datetime: 'Saturday, August 31, 2019'
         event[6] = datetime.strptime(event[6], '%A, %B %d, %Y')
         event[7] = datetime.strptime(event[7], '%A, %B %d, %Y')

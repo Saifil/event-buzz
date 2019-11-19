@@ -40,11 +40,25 @@ def get_all_event_data():
     for event in event_list[:5]:
         print(f"Event name: {event.title}")
 
+def generate_bert_input():
+    output_txt_file = open("output/input.txt", "a")
+
+    event_list = svc.get_all_event_data()
+    for event in event_list:
+        output_txt_file.write(event.description + "\n")
+
+    output_txt_file.close()
+
 
 # def create_multiple_users():
 #     user_document_list = [User("AAA", "123", "aaa@mail.com"), User("BBB", "456", "bbb@mail.com"),
 #                           User("CCC", "789", "ccc@mail.com"), User("DDD", "101", "ddd@mail.com")]
 #     usrs = svc.create_multiple_users(user_document_list)
+
+def get_events_by_clusters():
+    event_list_clstr = svc.get_events_by_clusters(24)
+    for event in event_list_clstr:
+        print(event.description)
 
 def main():
     mongo_setup.global_init()  # Connect to the db
@@ -58,10 +72,14 @@ def main():
     # create_new_user()
     # user_login()  # login the user
 
-    if state.active_account is not None:
-        print(f"Active session {state.active_account}")
+    # if state.active_account is not None:
+    #     print(f"Active session {state.active_account}")
 
-    get_all_event_data()
+    # generate_bert_input()
+
+    get_events_by_clusters()
+
+    # get_all_event_data()
 
     return 0
 
