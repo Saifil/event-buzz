@@ -50,9 +50,9 @@
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
-          <li ><a href="index.html">Home</a></li>
-          <li><a href="signup.html">Sign Up</a></li>
-          <li class="menu-active"><a href="login.html">Login</a></li>
+          <li ><a href="{{ url_for('index') }}">Home</a></li>
+          <li><a href="{{ url_for('register') }}">Sign Up</a></li>
+          <li class="menu-active"><a href="{{ url_for('login') }}">Login</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
