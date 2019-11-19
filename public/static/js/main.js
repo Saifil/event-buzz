@@ -1,6 +1,8 @@
 jQuery(document).ready(function( $ ) {
 
   // Back to top button
+  $('#page2').hide();
+  $('#page3').hide();
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
       $('.back-to-top').fadeIn('slow');
@@ -123,6 +125,28 @@ jQuery(document).ready(function( $ ) {
       }
     }
   });
+
+
+$("#p2").click(function () {
+
+    $("#page2").show();
+    $("#page1").hide();
+    $("#page3").hide();
+});
+
+$("#p1").click(function () {
+
+    $("#page1").show();
+    $("#page2").hide();
+    $("#page3").hide();
+});
+
+$("#p3").click(function () {
+
+    $("#page3").show();
+    $("#page1").hide();
+    $("#page2").hide();
+});
 
   // Gallery carousel (uses the Owl Carousel library)
   $(".gallery-carousel").owlCarousel({

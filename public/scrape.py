@@ -72,7 +72,7 @@ def scrape_events():
             if image_url is not None:
                 image_url = image_url.img['src']
             else:
-                image_url = "gatech_logo.png"
+                image_url = "https://comm.gatech.edu/sites/default/files/images/brand-graphics/gt-ctn-lockup-logo.png"
 
             related_link = elem.find("header")
             if related_link is not None:
