@@ -1,0 +1,36 @@
+R is a free, open source statistical analysis software package that is commonly used in research environments for data analysis and visualization.
+Considerations on Productivity, Performance and Ergonomics of Human-Centered Robots
+Convex Relaxations of the Power Flow Equations: Overview and Selected Applications
+XSEDE MPI Workshop
+XSEDE MPI Workshop
+WHEN AI RUNS THE WORLD: Algorithmic Harms and Policy Protections.
+R is a free, open source statistical analysis software package that is commonly used in research environments for data analysis and visualization.
+Deep Generative Models in the Diffusion Limit
+Improving Multi-fingered Robot Manipulation by Unifying Learning and Planning
+Modeling Power of Mixed Integer Convex Optimization Problems And Their Effective Solution with Julia and JuMP
+R is a free, open source statistical analysis software package that is commonly used in research environments for data analysis and visualization.
+An overview of recent advances in Silicon Carbide (SiC) MOSFET power semiconductor devices and packaging technology
+Adam Barkley, Solutions Architect in the Power Electronics Systems R&D team at Wolfspeed
+R Studio is a powerful tool for data analysis and visualization.
+Cost Learning via Inverse Optimal Transport
+Designing Wind Turbines for Next Generation Grids
+Join Green Hills Software as they discuss how they designed a fast, thread-safe allocator to power critical systems
+R is a free, open source statistical analysis software package that is commonly used in research environments for data analysis and visualization.
+AutoAssist: A Framework to Accelerate Training of Deep Neural Networks
+R is a free, statistical analysis software package commonly used in research environments for data analysis and visualization.
+Pivotal Gemfire – A distributed, memory-based data management system
+Knowledge-infused global-local data fusion for precision medicine and beyond
+R Studio is a powerful tool for data analysis and visualization.
+A brief introductory workshop on Web Design and Content Management Systems.
+Planning Sustainably: An Infrastructure-based Approach
+Planning Sustainably: An Infrastructure-based Approach
+Planning Sustainably: An Infrastructure-based Approach
+A Novel Wireless Tongue Tracking System for Speech Applications
+A symposium on HPC, AI, and data science by NVIDIA and Dell EMC researchers hosted by DataBank in Coda
+XSEDE OpenMP Workshop
+QPLEX:  A next-generation methodology for stochastic network analysis
+Toward Dynamic, Tactical, Remote Robotic Ops: Active Perception and Other Key Technologies
+Some Challenges in the Design and Application of Simulator Experiments to Biomechanics and Biomaterials Research
+Smaller p-values and shorter confidence intervals via information sharing
+Neural network estimation of likelihood ratios for testing and detection
+Cutting planes for the reformulation-linearization technique (RLT) relaxations of mixed 0–1 polynomial programs

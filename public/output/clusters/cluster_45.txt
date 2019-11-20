@@ -1,0 +1,46 @@
+Training by Kaltura - Kaltura Essentials
+Training by Respondus - Respondus 4.0 and Lockdown Browser
+XSEDE MPI Workshop
+XSEDE MPI Workshop
+Join the Badgr Team for a webinar to learn how to install the Badgr and Pathways LTI, create an Issuer, set up badges, and award badges in Canvas courses or via the Badgr.io app.
+This in-depth training for LockDown Browser will focus on advanced settings and features – such as how to use external websites, ebooks, spreadsheets and online calculators with LockDown Browser.
+Find out how to download and install Zotero, which helps you save, store, and organize the references you find when doing your research.
+This comprehensive training webinar is intended for instructors who plan to use LockDown Browser and/or Respondus Monitor with online exams.
+Managing Quizzes explores the more advanced features of the quizzing tool
+EndNote X9 is a powerful bibliographic management tool that will help with your research process.
+Mendeley is a bibliographic management tool that will help with your research process.
+Join us for Webinar #1 in the GA Smart Webinar Series.
+Learn basic LaTeX commands.
+This comprehensive training webinar is intended for instructors who plan to use LockDown Browser and/or Respondus Monitor with online exams.
+This comprehensive training webinar is intended for instructors who plan to use LockDown Browser and/or Respondus Monitor with online exams.
+Respondus 4.0 is a powerful tool for creating and managing exams that can be printed to paper or published directly to Blackboard Learn, Brightspace (D2L), Canvas, Moodle, and other learning systems.
+Join Green Hills Software as they discuss how they designed a fast, thread-safe allocator to power critical systems
+Join the Badgr Team for a webinar to learn how to install the Badgr and Pathways LTI, create an Issuer, set up badges, and award badges in Canvas courses or via the Badgr.io app.
+Accelerating non-linear multiphysics models with SIMD vectorization:  what to try when the compiler won’t vectorize your code automatically
+This comprehensive training webinar is intended for instructors who plan to use LockDown Browser and/or Respondus Monitor with online exams.
+Introducing No-Code: the Development Game Changer
+InnovationQ Plus is an innovation and intelligence platform that allows users to search over 100 million patent documents worldwide, analyze patent portfolios, and visualize patent materials with built-in tools.
+In this workshop you will learn how D3, a JavaScript library, can be used to make interactive and immersive charts.
+This talk will show how to analyze data settings rather than data sets.
+Terminal is an AI game where you can compete by programming algorithms and battling them against each other in a live e-sports tournament
+EndNote X9 is a powerful bibliographic management tool that will help with your research process.
+Find out how to download and install Zotero, which helps you save, store, and organize the references you find when doing your research.
+In this workshop you will learn how D3, a JavaScript library, can be used to make interactive and immersive charts.
+PACE - Python 101: Intro to Data Analysis with NumPy
+In this workshop you will learn how D3, a JavaScript library, can be used to make interactive and immersive charts.
+Learn how to create a colorful and interactive visualization using Plotly, a cloud-based data visualization tool.
+Mendeley is a bibliographic management tool that will help with your research process.
+Find out how to download and install Zotero, which helps you save, store, and organize the references you find when doing your research.
+Learn how to create a colorful and interactive visualization using Plotly, a cloud-based data visualization tool.
+XSEDE OpenMP Workshop
+Join the Badgr Team for a webinar to learn how to install the Badgr and Pathways LTI, create an Issuer, set up badges, and award badges in Canvas courses or via the Badgr.io app.
+This comprehensive training webinar is intended for instructors who plan to use LockDown Browser and/or Respondus Monitor with online exams.
+Learn how to create a colorful and interactive visualization using Plotly, a cloud-based data visualization tool.
+Learn basic LaTeX commands online.
+PACE - Python 101: Intro to Data Analysis with NumPy
+InnovationQ Plus is an innovation and intelligence platform that allows users to search over 100 million patent documents worldwide, analyze patent portfolios, and visualize patent materials with built-in tools.
+This session introduces the basis features of InnovationQ Plus.
+EndNote X9 is a powerful bibliographic management tool that will help with your research process.
+Mendeley is a bibliographic management tool that will help with your research process.
+Learn basic LaTeX commands online.
+PACE - Python 101: Intro to Data Analysis with NumPy

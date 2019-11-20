@@ -59,9 +59,15 @@ def generate_bert_input():
 #     usrs = svc.create_multiple_users(user_document_list)
 
 def get_events_by_clusters():
-    event_list_clstr = svc.get_events_by_clusters(24)
-    for event in event_list_clstr:
-        print(event.description)
+    for cluster_number in range(50):
+        file = open("output/clusters/cluster_db/cluster_" + str(cluster_number) + ".txt", 'a+')
+        print(f"Cluster number: {cluster_number}")
+
+        event_list_clstr = svc.get_events_by_clusters(cluster_number)
+        for event in event_list_clstr:
+            file.write(event.description + "\n")
+
+        file.close()
 
 def main():
     mongo_setup.global_init()  # Connect to the db
@@ -80,7 +86,7 @@ def main():
 
     # generate_bert_input()
 
-    # get_events_by_clusters()
+    get_events_by_clusters()
 
     # get_all_event_data()
 

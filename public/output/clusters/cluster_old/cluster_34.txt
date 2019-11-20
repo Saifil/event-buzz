@@ -1,0 +1,34 @@
+"Encoding and Decoding Specificity in Adaptive Immunity by Deep Learning" - Sai Reddy, Ph.D. - ETH Zurich
+"Precision Profiling of Microbiome-host Interactions via Single Molecule and Single Cell Sequencing" - Iwijn De Vlaminck, Ph.D. - Cornell University
+"Innovation in Pediatric Device Development" - Speaker: Wilbur Lam, M.D., Ph.D. - Emory/Georgia Tech
+Simpson Gumpertz & Heger Inc. (SGH®) is an award-winning engineering firm.
+"Neural Mechanisms of Movement Precision” - Abigail Person, Ph.D. - University of Colorado School of Medicine
+Levi Wood, Ph.D. - Georgia Tech, and Peter Yunker, Ph.D. - Georgia Tech
+"Ankle Exoskeletons to Restore Mobility Post-stroke" - Gregory Sawicki, Ph.D. - Georgia Tech
+"Computational Biomechanical Models of Human Pregnancy – Evaluating the Risk of Preterm Birth" - Kristin Myers, Ph.D., Columbia University
+"Functional Imaging of the Human Brain: A Window into the Architecture of the Mind" - Nancy Kanwisher, Ph.D. - MIT
+Getting Started with Mass Cytometry (CyTOF®) - Azucena Gomez-Cabrero, Ph.D. - Fluidigm Mass Cytometry
+An overview of recent advances in Silicon Carbide (SiC) MOSFET power semiconductor devices and packaging technology
+Adam Barkley, Solutions Architect in the Power Electronics Systems R&D team at Wolfspeed
+"Using Human Brain Organoids to Unveil Neuron-Glial Interactions During Development" - Steven A. Sloan, M.D., Ph.D. - Emory University
+Dr. Jana Harmon recently finished her Ph.D. at the University of Birmingham, England in which she investigated atheist conversions to Christianity.
+"Implanted Neurotechnology to Understand and Restore Arm and Hand Function" - Jennifer Collinger, Ph.D., University of Pittsburgh
+"Perturbation-Imaging Approaches to Study Functional Contributions of Cortical Activity to Human Movement" - Michael Borich, D.P.T., Ph.D. - Emory University School of Medicine
+"How Does a Breast Cell Learn to Become a Tissue, and What Happens When it Forgets" - Mina Bissell, Ph.D. - Lawrence Berkeley National Laboratory
+F. Levent Degertekin, Ph.D. - Georgia Tech, and John Oshinski, Ph.D. - Emory University/Georgia Tech
+"Biomimetic Drugs: In Vitro, In Vivo & Mechanistic Studies of 5-12mer Antibacterial Peptoids to Treat Respiratory Infections" - Annelise E. Barron, Ph.D. - Stanford School of Medicine & Engineering
+Integrated 3D Anatomical Model for Automatic Myocardial Segmentation in Cardiac CT Imagery
+"Helical Peptoid Mimics of the Hydrophobic Lung Surfactant Proteins Provide Effective In Vivo Treatment of Acute Lung Injury" - Annelise E. Barron, Ph.D. - Stanford School of Medicine & School of Engineering
+"Learning to Program Cellular Machines: Harnessing Cells to Treat Disease, Build Tissues, and Elucidate Design Principles" - Wendell Lim, Ph.D. - University of California San Francisco
+"Epilepsy – Beyond the Local Network" - Nigel Pedersen, M.D. - Emory University
+“Telomere Length Regulation of Muscle Stem Cells in Chronic Injuries” - Foteini Mourkioti, Ph.D. - University of Pennsylvania
+"Hyperbolic Geometry of the Olfactory Space" - Tatyana Sharpee, Ph.D. - Salk Institute
+"Neural Decoding and Control of Multiscale Brain Networks: From Motor to Mood" - Maryam Shanechi, Ph.D. - University of Southern California
+Steve Diggle, Ph.D. - Georgia Tech, and Cassie Mitchell, Ph.D. - Georgia Tech
+"Catheter Based Microscale Ultrasound Imaging Systems and Acousto-optical Sensors for Image Guided Interventions" - F. Levent Degertekin, Ph.D., Georgia Tech
+"Two Forms of Plasticity in Adult Visual Cortex" - Michael Stryker, Ph.D. - University of California, San Francisco
+"Bioengineered Human iPSC Tissue Model for Gaining Mechanistic and Therapeutic Insights into CPVT" - Sung-Jin Park, Ph.D. - Georgia Tech/Emory University
+In this talk, I will present an in vitro hiPSC-CM-based platform to study the tissue-level properties of engineered human myocardium.
+"Smart Photonic Biomaterials for Diagnostic and Therapeutic Applications" - Sei Kwang Hahn, Ph.D., POSTECH, Korea, Stanford University
+“Evolution and Development of a Minimal Nervous System in our Closest Invertebrate Relatives”  - Alberto Stolfi, Ph.D. - Georgia Tech
+Deborah Leckband, Ph.D. - University of Illinois
