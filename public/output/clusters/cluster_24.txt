@@ -1,47 +1,9 @@
-No active session
-Training by Respondus - Respondus 4.0 and Lockdown Browser
-R is a free, open source statistical analysis software package that is commonly used in research environments for data analysis and visualization. 
-R is a free, open source statistical analysis software package that is commonly used in research environments for data analysis and visualization. 
-Find out how to download and install Zotero, which helps you save, store, and organize the references you find when doing your research.
-Tableau is an easy-to-use, interactive visualization tool made easy with drag and drop functionality. 
-Modeling Power of Mixed Integer Convex Optimization Problems And Their Effective Solution with Julia and JuMP
-Maya is a 3D graphics modeling and animation program. 
-R is a free, open source statistical analysis software package that is commonly used in research environments for data analysis and visualization. 
-EndNote X9 is a powerful bibliographic management tool that will help with your research process.
-R Studio is a powerful tool for data analysis and visualization.
-Python excels at being able to manipulate data, but first that data needs to be put into a format Python can use and understand.
-Learn basic LaTeX commands.
-Adobe Photoshop is a graphics/image editing program included in the Adobe Creative Suite. 
-Tableau is an easy-to-use, interactive visualization tool made easy with drag and drop functionality. 
-Respondus 4.0 is a powerful tool for creating and managing exams that can be printed to paper or published directly to Blackboard Learn, Brightspace (D2L), Canvas, Moodle, and other learning systems.
-Join Green Hills Software as they discuss how they designed a fast, thread-safe allocator to power critical systems
-D3 is a JavaScript library that manipulates the DOM in HTML using SVGs.
-Adobe Illustrator is a vector graphics editing tool commonly used by graphic designers.
-R is a free, open source statistical analysis software package that is commonly used in research environments for data analysis and visualization. 
-AutoAssist: A Framework to Accelerate Training of Deep Neural Networks 
-Accelerating non-linear multiphysics models with SIMD vectorization:  what to try when the compiler won’t vectorize your code automatically
-R is a free, statistical analysis software package commonly used in research environments for data analysis and visualization. 
-Tableau is an easy-to-use, interactive visualization tool made easy with drag and drop functionality. 
-Pivotal Gemfire – A distributed, memory-based data management system
-D3 is a JavaScript library that manipulates the DOM in HTML using SVGs.
-This is an intermediate class using Adobe Illustrator in conjunction with a Wacom tablet to create hand-drawn effects in logo design.
-R Studio is a powerful tool for data analysis and visualization.
-Python excels at being able to manipulate data, but first that data needs to be put into a format Python can use and understand.
-D3 is a JavaScript library that manipulates the DOM in HTML using SVGs.
-InnovationQ Plus is an innovation and intelligence platform that allows users to search over 100 million patent documents worldwide, analyze patent portfolios, and visualize patent materials with built-in tools. 
-Python excels at being able to manipulate data, but first that data needs to be put into a format Python can use and understand.
-EndNote X9 is a powerful bibliographic management tool that will help with your research process.
-Find out how to download and install Zotero, which helps you save, store, and organize the references you find when doing your research.
-PACE - Python 101: Intro to Data Analysis with NumPy
-Learn how to create a colorful and interactive visualization using Plotly, a cloud-based data visualization tool.
-Find out how to download and install Zotero, which helps you save, store, and organize the references you find when doing your research.
-Maya is a 3D graphics modeling and animation program. 
-Learn how to create a colorful and interactive visualization using Plotly, a cloud-based data visualization tool.
-Learn how to create a colorful and interactive visualization using Plotly, a cloud-based data visualization tool.
-QPLEX:  A next-generation methodology for stochastic network analysis
-PACE - Python 101: Intro to Data Analysis with NumPy
-InnovationQ Plus is an innovation and intelligence platform that allows users to search over 100 million patent documents worldwide, analyze patent portfolios, and visualize patent materials with built-in tools. 
-This session introduces the basis features of InnovationQ Plus.
-EndNote X9 is a powerful bibliographic management tool that will help with your research process.
-Adobe Photoshop is a graphics/image editing program included in the Adobe Creative Suite. 
-PACE - Python 101: Intro to Data Analysis with NumPy
+Meeting for the group Eagles@GT.
+EAS Session
+2019 GTFWC Open House
+Official team tryouts for the GT Squash Club.
+GTAAN Advising on The Rocks
+CAS on Preparing for Finals
+GTAAN November Meeting
+CAS on Preparing for Finals
+CAS on Preparing for Finals

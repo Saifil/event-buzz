@@ -1,0 +1,23 @@
+R is a free, open source statistical analysis software package that is commonly used in research environments for data analysis and visualization.
+R is a free, open source statistical analysis software package that is commonly used in research environments for data analysis and visualization.
+Tableau is an easy-to-use, interactive visualization tool made easy with drag and drop functionality.
+Maya is a 3D graphics modeling and animation program.
+R is a free, open source statistical analysis software package that is commonly used in research environments for data analysis and visualization.
+R Studio is a powerful tool for data analysis and visualization.
+Python excels at being able to manipulate data, but first that data needs to be put into a format Python can use and understand.
+Adobe Photoshop is a graphics/image editing program included in the Adobe Creative Suite.
+Tableau is an easy-to-use, interactive visualization tool made easy with drag and drop functionality.
+D3 is a JavaScript library that manipulates the DOM in HTML using SVGs.
+Adobe Illustrator is a vector graphics editing tool commonly used by graphic designers.
+R is a free, open source statistical analysis software package that is commonly used in research environments for data analysis and visualization.
+R is a free, statistical analysis software package commonly used in research environments for data analysis and visualization.
+Tableau is an easy-to-use, interactive visualization tool made easy with drag and drop functionality.
+Pivotal Gemfire – A distributed, memory-based data management system
+D3 is a JavaScript library that manipulates the DOM in HTML using SVGs.
+This is an intermediate class using Adobe Illustrator in conjunction with a Wacom tablet to create hand-drawn effects in logo design.
+R Studio is a powerful tool for data analysis and visualization.
+Python excels at being able to manipulate data, but first that data needs to be put into a format Python can use and understand.
+D3 is a JavaScript library that manipulates the DOM in HTML using SVGs.
+Python excels at being able to manipulate data, but first that data needs to be put into a format Python can use and understand.
+Maya is a 3D graphics modeling and animation program.
+Adobe Photoshop is a graphics/image editing program included in the Adobe Creative Suite.

@@ -1,0 +1,58 @@
+"Encoding and Decoding Specificity in Adaptive Immunity by Deep Learning" - Sai Reddy, Ph.D. - ETH Zurich
+"Precision Profiling of Microbiome-host Interactions via Single Molecule and Single Cell Sequencing" - Iwijn De Vlaminck, Ph.D. - Cornell University
+Considerations on Productivity, Performance and Ergonomics of Human-Centered Robots
+Convex Relaxations of the Power Flow Equations: Overview and Selected Applications
+"Neural Mechanisms of Movement Precision” - Abigail Person, Ph.D. - University of Colorado School of Medicine 
+Deep Generative Models in the Diffusion Limit
+"Ankle Exoskeletons to Restore Mobility Post-stroke" - Gregory Sawicki, Ph.D. - Georgia Tech
+Improving Multi-fingered Robot Manipulation by Unifying Learning and Planning
+"Computational Biomechanical Models of Human Pregnancy – Evaluating the Risk of Preterm Birth" - Kristin Myers, Ph.D., Columbia University
+"Functional Imaging of the Human Brain: A Window into the Architecture of the Mind" - Nancy Kanwisher, Ph.D. - MIT
+Getting Started with Mass Cytometry (CyTOF®) - Azucena Gomez-Cabrero, Ph.D. - Fluidigm Mass Cytometry
+Thinking about Chemical & Biomolecular Engineering?
+An overview of recent advances in Silicon Carbide (SiC) MOSFET power semiconductor devices and packaging technology
+Have you ever wondered why Python is quickly becoming one of the world's most-used programming languages?
+Cost Learning via Inverse Optimal Transport
+"Using Human Brain Organoids to Unveil Neuron-Glial Interactions During Development" - Steven A. Sloan, M.D., Ph.D. - Emory University
+Have you ever wondered why Python is quickly becoming one of the world's most-used programming languages?
+Merging Humans and Machines to Assist Legged Locomotion
+Timing it Right: Balancing Inpatient Congestion versus Readmission Risk at Discharge
+"Implanted Neurotechnology to Understand and Restore Arm and Hand Function" - Jennifer Collinger, Ph.D., University of Pittsburgh
+"Perturbation-Imaging Approaches to Study Functional Contributions of Cortical Activity to Human Movement" - Michael Borich, D.P.T., Ph.D. - Emory University School of Medicine
+Have you ever wondered why Python is quickly becoming one of the world's most-used programming languages?
+The best way to prevent flu is by getting vaccinated every year.
+Many scientific and engineering journal articles are written using LaTeX.
+"How Does a Breast Cell Learn to Become a Tissue, and What Happens When it Forgets" - Mina Bissell, Ph.D. - Lawrence Berkeley National Laboratory
+Uniting Robots and Ultrasound for Cardiac Repair
+A brief introduction to data analysis and visualization in the humanities.
+The best way to prevent flu is by getting vaccinated every year.
+"Biomimetic Drugs: In Vitro, In Vivo & Mechanistic Studies of 5-12mer Antibacterial Peptoids to Treat Respiratory Infections" - Annelise E. Barron, Ph.D. - Stanford School of Medicine & Engineering
+Thinking about Chemical & Biomolecular Engineering?
+Integrated 3D Anatomical Model for Automatic Myocardial Segmentation in Cardiac CT Imagery
+"Helical Peptoid Mimics of the Hydrophobic Lung Surfactant Proteins Provide Effective In Vivo Treatment of Acute Lung Injury" - Annelise E. Barron, Ph.D. - Stanford School of Medicine & School of Engineering
+"Learning to Program Cellular Machines: Harnessing Cells to Treat Disease, Build Tissues, and Elucidate Design Principles" - Wendell Lim, Ph.D. - University of California San Francisco
+Recently developed classes of electronic materials create an opportunity to engineer the opposite outcome, in the form of ‘transient’ devices that dissolve, disintegrate or otherwise disappear at triggered times or with controlled rates.
+"Epilepsy – Beyond the Local Network" - Nigel Pedersen, M.D. - Emory University
+“Telomere Length Regulation of Muscle Stem Cells in Chronic Injuries” - Foteini Mourkioti, Ph.D. - University of Pennsylvania
+The best way to prevent flu is by getting vaccinated every year.
+Robophysics: Physics Meets Robotics
+The best way to prevent flu is by getting vaccinated every year.
+Thinking about Chemical & Biomolecular Engineering?
+In this talk, we present new insights and strategies we recently developed for controlling multi-scale assembly and transformation of semiconducting molecules.
+"Neural Decoding and Control of Multiscale Brain Networks: From Motor to Mood" - Maryam Shanechi, Ph.D. - University of Southern California
+Introduction to Machine Learning
+In this talk, I will focus on our tissue-engineering approach to recapitulate biological functions at tissue- and system- levels.
+"Catheter Based Microscale Ultrasound Imaging Systems and Acousto-optical Sensors for Image Guided Interventions" - F. Levent Degertekin, Ph.D., Georgia Tech
+Five Georgia Tech professors debate whether we live in a simulation.
+Introduction to Machine Learning
+Some Challenges in the Design and Application of Simulator Experiments to Biomechanics and Biomaterials Research
+"Two Forms of Plasticity in Adult Visual Cortex" - Michael Stryker, Ph.D. - University of California, San Francisco
+Smaller p-values and shorter confidence intervals via information sharing
+Thinking about Chemical & Biomolecular Engineering?
+The best way to prevent flu is by getting vaccinated every year.
+"Bioengineered Human iPSC Tissue Model for Gaining Mechanistic and Therapeutic Insights into CPVT" - Sung-Jin Park, Ph.D. - Georgia Tech/Emory University
+In this talk, I will present an in vitro hiPSC-CM-based platform to study the tissue-level properties of engineered human myocardium.
+"Smart Photonic Biomaterials for Diagnostic and Therapeutic Applications" - Sei Kwang Hahn, Ph.D., POSTECH, Korea, Stanford University
+Neural network estimation of likelihood ratios for testing and detection
+“Evolution and Development of a Minimal Nervous System in our Closest Invertebrate Relatives”  - Alberto Stolfi, Ph.D. - Georgia Tech
+Cutting planes for the reformulation-linearization technique (RLT) relaxations of mixed 0–1 polynomial programs

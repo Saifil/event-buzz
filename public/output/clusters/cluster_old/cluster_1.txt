@@ -1,0 +1,80 @@
+PCI-2019 is a free week-long distributed training event intended for people seeking to enhance their knowledge and skills for scaling their research software to petascale and emerging extreme-scale computing systems.
+PCI-2019 is a free week-long distributed training event intended for people seeking to enhance their knowledge and skills for scaling their research software to petascale and emerging extreme-scale computing systems.
+PCI-2019 is a free week-long distributed training event intended for people seeking to enhance their knowledge and skills for scaling their research software to petascale and emerging extreme-scale computing systems.
+PCI-2019 is a free week-long distributed training event intended for people seeking to enhance their knowledge and skills for scaling their research software to petascale and emerging extreme-scale computing systems.
+PCI-2019 is a free week-long distributed training event intended for people seeking to enhance their knowledge and skills for scaling their research software to petascale and emerging extreme-scale computing systems.
+Nano@Tech is an organization comprised of professors and graduate and undergraduate students from Georgia Tech and nearby academic institutions, as well as professionals from the corresponding scientific community that are interested in nanotechnology.
+Our consultant teams develop real-world projects with our client partners.
+This seminar will present real-time experimentation for deep learning practitioners and highlight the next visual analytics research frontiers in AI.
+This seminar will focus on the unique aspects of elections from a computing standpoint.
+Nano@Tech is an organization comprised of professors and graduate and undergraduate students from Georgia Tech and nearby academic institutions, as well as professionals from the corresponding scientific community that are interested in nanotechnology.
+This talk will cover APT operational theory, an introduction to sample prep and data reconstruction, and an overview of various applications.
+In this workshop, we will use Tableau to map census data.
+Dive into data science with us at our weekly workshops! Our goal is to help you develop a deep understanding of data and analytical/predictive models while using tools widely used in the industry.
+Thinking about Chemical & Biomolecular Engineering?
+This seminars-plus-lunch program aims to catalyze scientific and cultural exchange between Georgia Tech students and 12 visiting undergrads from Japan.
+This workshop is being co-developed by Citrine Informatics and the Institute for Materials at Georgia Tech with the goal of providing basic skills in data analysis and machine learning.
+Join Citrine Informatics and the Institute for Materials for a workshop that will provide the basic skills in data analysis and machine learning for students and post docs doing research in materials science and engineering.
+Join Citrine Informatics and the Institute for Materials for a workshop that will provide the basic skills in data analysis and machine learning for students and post docs doing research in materials science and engineering.
+This workshop is being co-developed by Citrine Informatics and the Institute for Materials at Georgia Tech with the goal of providing basic skills in data analysis and machine learning.
+Strategies for adapting selected CVD precursor types for FEBID and efforts to identify privileged ligand classes and optimal coordination spheres for FEBID precursors will be discussed in the context of studies on Ru, Pt and Au complexes.
+This seminar will discuss how the domestic dog’s accessibility provides an opportunity for study and will show how dogs can participate in fMRI studies.
+Learn about and debate the future of a new cross-institutional center in Human-Centered AI.
+This workshop is being co-developed by Citrine Informatics and the Institute for Materials at Georgia Tech with the goal of providing basic skills in data analysis and machine learning.
+Dive into data science with us at our weekly workshops! Our goal is to help you develop a deep understanding of data and analytical/predictive models while using tools widely used in the industry.
+Nano@Tech is an organization comprised of professors and graduate and undergraduate students from Georgia Tech and nearby academic institutions, as well as professionals from the corresponding scientific community that are interested in nanotechnology.
+Merging Humans and Machines to Assist Legged Locomotion
+This talk explores how technologies can expand people to look beyond what they usually do.
+The Daniel Guggenheim School of Aerospace Engineering invites you to hear "Space Situational Awareness:  New Challenges & Advances in Estimation, Data Sharing, and Privacy" a talk by Prof. Raktim Bhattacharya
+Jeff Dean, a senior fellow from Google will be on campus to give a talk on using deep learning to solve challenging problems.
+In this workshop, we will use Tableau to map census data.
+This program, presented in collaboration with Georgia Tech, introduces the practice of classical architectural design with emphasis on its application in the design of new buildings and places.
+This program, presented in collaboration with Georgia Tech, introduces the practice of classical architectural design with emphasis on its application in the design of new buildings and places.
+This program, presented in collaboration with Georgia Tech, introduces the practice of classical architectural design with emphasis on its application in the design of new buildings and places.
+Many scientific and engineering journal articles are written using LaTeX.
+Nano@Tech is an organization comprised of professors and graduate and undergraduate students from Georgia Tech and nearby academic institutions, as well as professionals from the corresponding scientific community that are interested in nanotechnology.
+In this workshop, we will use Tableau to map census data.
+Uniting Robots and Ultrasound for Cardiac Repair
+This talk examines user experience issues that arise with autonomous driving.
+As Admins and Instructors, it is always helpful to know what our students will encounter in Canvas.
+A brief introduction to data analysis and visualization in the humanities.
+The Georgia Tech School of Music will collaborate with École polytechnique and the Cultural and Scientific services of the French Embassy to showcase the connections between art and science via Water Drums.
+The Georgia Tech School of Music will collaborate with École polytechnique and the Cultural and Scientific services of the French Embassy to showcase the connections between art and science via Water Drums.
+Thinking about Chemical & Biomolecular Engineering?
+The Georgia Tech School of Music will collaborate with École polytechnique and the Cultural and Scientific services of the French Embassy to showcase the connections between art and science via Water Drums.
+Recently developed classes of electronic materials create an opportunity to engineer the opposite outcome, in the form of ‘transient’ devices that dissolve, disintegrate or otherwise disappear at triggered times or with controlled rates.
+Join The Aerospace Corporation at 6:30pm in Klaus 1116EW to learn about the state of the art in modeling, simulation, analysis, and visualization and the role of computer software engineers have in the workplace.
+This presentation briefly reviews the evidence for nanomaterial toxicity, considers the relative exposures to nano-scale materials and presents some the attributes of nanomaterial behavior in natural systems that have been described over the last 20 years
+A brief introductory workshop on wireframing and web development in the humanities.
+This month we highlight the Morehouse School of Medicine (MSM) Prevention Research Center's community health needs and assets assessment process and how the data are being transformed by MSM Bioinformatics Unit into a website/portal for community access.
+A symposium on HPC, AI, and data science by NVIDIA and Dell EMC researchers hosted by DataBank in Coda
+In Engineering & Lithography Fun - Practical Problem Solving, KemLab present several real & practical issues our customers encounter in the field of engineering & lithography.
+Virtual reality, robotics, civic computing, information visualization and artificial intelligence are just a few of the research areas that come to life at the GVU Center Research Showcase and show how technology impacts society.
+A collaborative concert between the Georgia Tech School of Music and France's IRCAM (Institute for Research and Coordination in Acoustics/Music).
+Join retail technology experts, entrepreneurs, investors, and retailers as we discuss "Reimagining Retail" for the future.
+This talk will discuss how everyday materials and familiar objects can be transformed.
+A brief introductory workshop on AR and VR in the humanities.
+This course prepares students in the basics of transportation operations and analysis.
+This course prepares students in the basics of transportation operations and analysis.
+Mark Prausnitz will describe his innovation pathway, the enabling science, industry, patient and global health needs along with what’s next: “star particles” for treatment delivery or interstitial fluid collection for diagnostic purposes.
+Join Georgia Tech faculty for an exciting discussion on what motivates them to examine fairness in machine learning and what problems their research is hoping to solve.
+This course prepares students in the basics of transportation operations and analysis.
+Thinking about Chemical & Biomolecular Engineering?
+Meet three new College of Design faculty members representing the schools of Architecture, Industrial Design, and City Planning as they share their research.
+In this talk, we present new insights and strategies we recently developed for controlling multi-scale assembly and transformation of semiconducting molecules.
+In this talk we look at how new design tools create opportunity without losing jobs, skills, and traditions.
+Specialized lighting design is essential to promote overall health and well-being in older people. This seminar will describe specific lighting needs of this growing population.
+Description: A brief intro to physical computing in the humanities
+In this talk, I will focus on our tissue-engineering approach to recapitulate biological functions at tissue- and system- levels.
+In this talk improvisation is useful and applicable to the condition of today’s technology-imbued cities.
+Based on questionnaires and extensive interviews, this lecture attempts to shed some empirical and comparative light on the religiosity and socio-political values of Chinese Christians.
+This talk will review the complexity theory aspect of the quantum supremacy experiments. It will also introduce the hybrid quantum computational chemistry algorithms and explore a number of ways to improve it.
+Some Challenges in the Design and Application of Simulator Experiments to Biomechanics and Biomaterials Research
+Thinking about Chemical & Biomolecular Engineering?
+Our Graduate Student Research Assistants will give a brief introduction into social network analysis.
+Nano@Tech is an organization comprised of professors and graduate and undergraduate students from Georgia Tech and nearby academic institutions, as well as professionals from the corresponding scientific community that are interested in nanotechnology.
+Researchers from Israel, France, and US will gather to train young researchers in the newest developments in the field of Harmonic Analysis.
+Researchers from Israel, France, and US will gather to train young researchers in the newest developments in the field of Harmonic Analysis.
+Nano@Tech is an organization comprised of professors and graduate and undergraduate students from Georgia Tech and nearby academic institutions, as well as professionals from the corresponding scientific community that are interested in nanotechnology.
+Researchers from Israel, France, and US will gather to train young researchers in the newest developments in the field of Harmonic Analysis.
+Researchers from Israel, France, and US will gather to train young researchers in the newest developments in the field of Harmonic Analysis.

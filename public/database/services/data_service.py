@@ -37,3 +37,7 @@ def get_all_event_data():
 def get_events_by_clusters(cluster=0):
     events = Event.objects().filter(cluster_number=cluster)
     return events
+
+def get_unique_descriptions():
+    events = Event.objects.distinct('description')
+    return events
