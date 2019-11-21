@@ -1,0 +1,63 @@
+This 30-minute webinar will provide an overview of the ELS-G100 system with a discussion of key features and capabilities followed by time for Q & A.
+PCI-2019 is a free week-long distributed training event intended for people seeking to enhance their knowledge and skills for scaling their research software to petascale and emerging extreme-scale computing systems.
+Turnitin LTI Tips and Tools session focuses on the integration between Canvas and Turnitin which makes it easier to leverage Turnitin’s capabilities for instructors and students directly from within Canvas.
+PCI-2019 is a free week-long distributed training event intended for people seeking to enhance their knowledge and skills for scaling their research software to petascale and emerging extreme-scale computing systems.
+Home Pages will guide participants through the creation of beautiful and functionally designed Home Pages that are intuitive for students.
+PCI-2019 is a free week-long distributed training event intended for people seeking to enhance their knowledge and skills for scaling their research software to petascale and emerging extreme-scale computing systems.
+Quiz Basics session will prepare instructors to use the quizzing tool in Canvas.
+Quiz Basics session will prepare instructors to use the quizzing tool in Canvas.
+PCI-2019 is a free week-long distributed training event intended for people seeking to enhance their knowledge and skills for scaling their research software to petascale and emerging extreme-scale computing systems.
+Course Design Considerations highlights the best practices in Canvas for creating student-centered course spaces that can be easily navigated from a browser or a mobile device.
+PCI-2019 is a free week-long distributed training event intended for people seeking to enhance their knowledge and skills for scaling their research software to petascale and emerging extreme-scale computing systems.
+Pages serve as a media rich content delivery tool inside a Canvas course.
+Leveraging Modules teaches users how create flow within a course by organizing and structuring content with the Modules tool.
+Group Work & Collaboration introduces teachers to collaboration features in Canvas, including discussions, group assignments, the Collaboration tool, and web conferencing.
+This seminar will present real-time experimentation for deep learning practitioners and highlight the next visual analytics research frontiers in AI.
+Explore the interface of the NEW Canvas gradebook from the instructor and student perspectives, which includes new course grade management features.
+Home Pages will guide participants through the creation of beautiful and functionally designed Home Pages that are intuitive for students.
+Join the Badgr Team for a webinar to learn how to install the Badgr and Pathways LTI, create an Issuer, set up badges, and award badges in Canvas courses or via the Badgr.io app.
+This in-depth training for LockDown Browser will focus on advanced settings and features – such as how to use external websites, ebooks, spreadsheets and online calculators with LockDown Browser.
+Leveraging Modules teaches users how create flow within a course by organizing and structuring content with the Modules tool.
+Pages serve as a media rich content delivery tool inside a Canvas course.
+Group Work & Collaboration introduces teachers to collaboration features in Canvas, including discussions, group assignments, the Collaboration tool, and web conferencing.
+This talk will cover APT operational theory, an introduction to sample prep and data reconstruction, and an overview of various applications.
+This comprehensive training webinar is intended for instructors who plan to use LockDown Browser and/or Respondus Monitor with online exams.
+Leveraging Modules teaches users how create flow within a course by organizing and structuring content with the Modules tool.
+Managing Quizzes explores the more advanced features of the quizzing tool
+EndNote X9 is a powerful bibliographic management tool that will help with your research process.
+Quiz Basics session will prepare instructors to use the quizzing tool in Canvas.
+Home Pages will guide participants through the creation of beautiful and functionally designed Home Pages that are intuitive for students.
+Mendeley is a bibliographic management tool that will help with your research process.
+This comprehensive training webinar is intended for instructors who plan to use LockDown Browser and/or Respondus Monitor with online exams.
+This comprehensive training webinar is intended for instructors who plan to use LockDown Browser and/or Respondus Monitor with online exams.
+Respondus 4.0 is a powerful tool for creating and managing exams that can be printed to paper or published directly to Blackboard Learn, Brightspace (D2L), Canvas, Moodle, and other learning systems.
+Group Work & Collaboration introduces teachers to collaboration features in Canvas, including discussions, group assignments, the Collaboration tool, and web conferencing.
+Home Pages will guide participants through the creation of beautiful and functionally designed Home Pages that are intuitive for students.
+Join the Badgr Team for a webinar to learn how to install the Badgr and Pathways LTI, create an Issuer, set up badges, and award badges in Canvas courses or via the Badgr.io app.
+Course Design Considerations highlights the best practices in Canvas for creating student-centered course spaces that can be easily navigated from a browser or a mobile device.
+This comprehensive training webinar is intended for instructors who plan to use LockDown Browser and/or Respondus Monitor with online exams.
+Quiz Basics session will prepare instructors to use the quizzing tool in Canvas.
+Home Pages will guide participants through the creation of beautiful and functionally designed Home Pages that are intuitive for students.
+Leveraging Modules teaches users how create flow within a course by organizing and structuring content with the Modules tool.
+Explore the interface of the NEW Canvas gradebook from the instructor and student perspectives, which includes new course grade management features.
+InnovationQ Plus is an innovation and intelligence platform that allows users to search over 100 million patent documents worldwide, analyze patent portfolios, and visualize patent materials with built-in tools.
+In this workshop you will learn how D3, a JavaScript library, can be used to make interactive and immersive charts.
+EndNote X9 is a powerful bibliographic management tool that will help with your research process.
+In this workshop you will learn how D3, a JavaScript library, can be used to make interactive and immersive charts.
+In this workshop you will learn how D3, a JavaScript library, can be used to make interactive and immersive charts.
+Learn how to create a colorful and interactive visualization using Plotly, a cloud-based data visualization tool.
+Mendeley is a bibliographic management tool that will help with your research process.
+In Engineering & Lithography Fun - Practical Problem Solving, KemLab present several real & practical issues our customers encounter in the field of engineering & lithography.
+Learn how to create a colorful and interactive visualization using Plotly, a cloud-based data visualization tool.
+Explore the interface of the NEW Canvas gradebook from the instructor and student perspectives, which includes new course grade management features.
+Pages serve as a media rich content delivery tool inside a Canvas course. During this session, participants will see examples of pages appropriate for different grade levels and content types.
+Join the Badgr Team for a webinar to learn how to install the Badgr and Pathways LTI, create an Issuer, set up badges, and award badges in Canvas courses or via the Badgr.io app.
+This comprehensive training webinar is intended for instructors who plan to use LockDown Browser and/or Respondus Monitor with online exams.
+In this webinar, Assistant Lecturer at the University of Toledo Andrew Misko will outline strategies that he uses for selecting question types as well as determining their placement in a PowerPoint presentation.
+Quiz Basics will prepare participants to use the quizzing tool in Canvas.
+Learn how to create a colorful and interactive visualization using Plotly, a cloud-based data visualization tool.
+This training event will allow a better understanding of  the Turnitin Similarity Report.
+This training event will allow a better understanding of  the Turnitin Similarity Report.
+InnovationQ Plus is an innovation and intelligence platform that allows users to search over 100 million patent documents worldwide, analyze patent portfolios, and visualize patent materials with built-in tools.
+EndNote X9 is a powerful bibliographic management tool that will help with your research process.
+Mendeley is a bibliographic management tool that will help with your research process.

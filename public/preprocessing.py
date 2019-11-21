@@ -45,9 +45,10 @@ except FileNotFoundError:  # will not work as there is no output.jsonl in this d
 kmeans = KMeans(n_clusters=50, random_state=0).fit(embeddings)
 # print(f"K-means labels: {kmeans.labels_}, label-size: {kmeans.labels_.shape}")
 prcts = kmeans.labels_
+# print(prcts.shape)
 
-x = kmeans.labels_
-unique, counts = np.unique(x, return_counts=True)
+# x = kmeans.labels_
+# unique, counts = np.unique(x, return_counts=True)
 
 # print(np.asarray((unique, counts)).T)
 #
@@ -64,25 +65,28 @@ unique, counts = np.unique(x, return_counts=True)
 #             line = fp.readline()
 #             i += 1
 
-def find_matchings(cluster_number):
-    file = open("output/clusters/cluster_clean/clstr_" + str(cluster_number) + ".txt", 'a+')
-    # file = open("output/clusters/cluster_" + str(cluster_number) + ".txt", 'a+')
-    with open("output/input.txt") as fp:
-        print(f"Cluster number: {cluster_number}")
-        line = fp.readline()
-        i = 0
-        while line:
-        # while line:
-            per_list = line.strip()
-            if prcts[i] == cluster_number:
-                # print(per_list)
-                file.write(per_list + "\n")
-            line = fp.readline()
-            i += 1
-    file.close()
 
-for i in range(50):
-    find_matchings(i)
+#########here
+#
+# def find_matchings(cluster_number):
+#     file = open("output/clusters/cluster_clean_unnumbered/clstr_" + str(cluster_number) + ".txt", 'a+')
+#     # file = open("output/clusters/cluster_" + str(cluster_number) + ".txt", 'a+')
+#     with open("output/input.txt") as fp:
+#         print(f"Cluster number: {cluster_number}")
+#         line = fp.readline()
+#         i = 0
+#         while line:
+#         # while line:
+#             per_list = line.strip()
+#             if prcts[i] == cluster_number:
+#                 # print(per_list)
+#                 file.write(per_list + "\n")
+#             line = fp.readline()
+#             i += 1
+#     file.close()
+#
+# for i in range(50):
+#     find_matchings(i)
 
 # try:
 #     test_embeddings = np.load("bert/embeddings_main" + '.npy')
@@ -167,7 +171,6 @@ for i in range(50):
 # init_connection_to_mongo()
 #
 # assign_clusters_to_events()
-# get all events in cluster 1
 
 
 ##########################
