@@ -11,12 +11,16 @@ app.config['MONGO_URI'] = 'mongodb://127.0.0.1:27017/eventbuzz'
 
 mongo = PyMongo(app)
 
+NUM_CLUSTER = 50
+NUM_EVENTS_DISPLAY = 50
 
 @app.route('/')
 def index():
     # if 'email' in session:
-    #     # redirect user to his event page
-    #     return 'You are logged in as ' + session['email']
+        # redirect user to his event page
+        # TODO: display user name on event page | NOT IMP
+        # return redirect(url_for('events'))
+        # return 'You are logged in as ' + session['email']
 
     return render_template('index.html')
     # return render_template('signup.html')
@@ -36,15 +40,30 @@ def login():
             # return render_template('event_data.html')
             return redirect(url_for('events'))
         else:
+            # TODO: display credentials wrong
             return render_template('login.html')
     return render_template('login.html')
 
 
 @app.route('/events', methods=['POST', 'GET'])
 def events():
-    event_list = svc.get_all_event_data()
+    # event_list = svc.get_all_event_data()
+    event_list = []
 
-    return render_template('event_data.html', data=event_list[:27])
+    usr_email = session['email']
+    user = svc.get_user_pref(usr_email)
+    pref = user.preferences
+    weight_sum = user.weight_sum
+
+    for key in pref:
+        if pref[key] != 0:
+            cluster_num_events = pref[key] * NUM_EVENTS_DISPLAY // weight_sum
+            event_list += list(svc.get_event_by_cluster_limit(key, cluster_num_events))
+    print(event_list)
+    # for event in event_list:
+    #     print(event['_id'])
+
+    return render_template('event_data.html', data=event_list)
 
 
 @app.route('/register', methods=['POST', 'GET'])
@@ -57,12 +76,20 @@ def register():
         age = request.form['age']
         educ = request.form['educ']
         major = request.form['major']
+        cluster_list = request.form.getlist("cluster_keys")
+        # print(cluster_list) # to int
+        preferences = {}
+        for i in range(NUM_CLUSTER):
+            preferences[str(i)] = 0
+
+        for cluster in cluster_list:
+            preferences[cluster] += 1
 
         print(f"Name: {name}")
 
         users = svc.get_user_info(email, password)
         if users is None:
-            new_usr = svc.create_new_user(name, email, password, age, educ, major)
+            new_usr = svc.create_new_user(name, email, password, age, educ, major, preferences, len(cluster_list))
             session['email'] = new_usr.email
             return redirect(url_for('index'))
             # return render_template('index.html')
@@ -75,7 +102,9 @@ def register():
 
         return 'That username already exists!'
 
-    return render_template('signup.html')
+    clstrs = svc.get_all_clusters()
+
+    return render_template('signup.html', data=clstrs)
     # return render_template('register.html')
 
 

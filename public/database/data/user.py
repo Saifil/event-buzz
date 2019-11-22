@@ -11,6 +11,9 @@ class User(mongoengine.Document):
     educ = mongoengine.StringField(required=True)
     major = mongoengine.StringField(required=True)
 
+    preferences = mongoengine.DictField(required=True)
+    weight_sum = mongoengine.IntField(required=True, default=0)
+
     meta = {
         'db_alias': 'core',
         'collection': 'user' 

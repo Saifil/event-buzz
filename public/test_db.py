@@ -69,6 +69,13 @@ def get_events_by_clusters():
 
         file.close()
 
+
+def make_cluster_collection():
+    for i in range(50):
+        cluster_count = svc.get_cluster_counts(i)
+        cluster_name = "dummy_name"
+        clstr = svc.create_new_cluster(i, cluster_name, cluster_count)
+
 def main():
     mongo_setup.global_init()  # Connect to the db
 
@@ -86,10 +93,11 @@ def main():
 
     # generate_bert_input()
 
-    get_events_by_clusters()
+    # get_events_by_clusters()
 
+    # make_cluster_collection()
     # get_all_event_data()
-
+    # event_list = svc.get_event_by_cluster_limit()
 
     return 0
 
