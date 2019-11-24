@@ -95,7 +95,30 @@
 
 
      </ul> -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type=text/javascript>
 
+    function testf(ele){
+        var vid = ele.id;
+        var cluster_no = ele.value;
+        console.log(vid);
+        console.log(cluster_no);
+        $.ajax({
+                  data:{cluster : cluster_no
+                  },
+                  type: 'POST',
+                  url: '/background_process_test'
+              })
+                  .done(function (data) {
+                      if (data.error){
+                          console.log("Error");
+                      }
+                      else {
+                          console.log(data.status);
+                      }
+                  });
+    }
+</script>
 
 
     <!--==========================
@@ -124,7 +147,7 @@
           {% for item in data[18:27] %}
           <div class="col-lg-4 col-md-6">
             <div class="speaker">
-
+<button name="{{ item._id }}" id =  "{{ item._id }}" value="{{ item.cluster_number }}" onclick="testf(this)"> Interested</button>
               <img src="https://comm.gatech.edu/sites/default/files/images/brand-graphics/gt-ctn-lockup-logo.png" width="600px" height="550px" alt="Speaker 1" class="img-fluid">
               <div>
 <!--                <h3><a href="speaker-details.html">Malav Shah</a></h3>-->
@@ -144,7 +167,7 @@
           {% for item in data[9:18] %}
           <div class="col-lg-4 col-md-6">
             <div class="speaker">
-
+<button name="{{ item._id }}" id =  "{{ item._id }}" value="{{ item.cluster_number }}" onclick="testf(this)"> Interested</button>
               <img src="https://comm.gatech.edu/sites/default/files/images/brand-graphics/gt-ctn-lockup-logo.png" width="600px" height="550px" alt="Speaker 1" class="img-fluid">
               <div>
 <!--                <h3><a href="speaker-details.html">Malav Shah</a></h3>-->
@@ -165,7 +188,7 @@
           {% for item in data[:9] %}
           <div class="col-lg-4 col-md-6">
             <div class="speaker">
-
+<button name="{{ item._id }}" id =  "{{ item._id }}" value="{{ item.cluster_number }}" onclick="testf(this)"> Interested</button>
               <img src="https://comm.gatech.edu/sites/default/files/images/brand-graphics/gt-ctn-lockup-logo.png" width="600px" height="550px" alt="Speaker 1" class="img-fluid">
               <div>
 <!--                <h3><a href="speaker-details.html">Malav Shah</a></h3>-->

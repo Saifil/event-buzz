@@ -1,4 +1,4 @@
-from flask import Flask, render_template, url_for, request, session, redirect
+from flask import Flask, render_template, url_for, request, session, redirect, jsonify
 from flask_pymongo import PyMongo
 
 import database.data.mongo_setup as mongo_setup
@@ -112,7 +112,13 @@ def register():
     return render_template('signup.html', data=clstrs)
     # return render_template('register.html')
 
-
+@app.route('/background_process_test', methods=['POST', 'GET'])
+def background_process_test():
+    if request.method == 'POST':
+        cluster = request.form['cluster']
+        print(cluster)
+        return jsonify ({'status' : 'True'})
+    return jsonify({'status': 'False'})
 
 @app.route('/android', methods=['POST', 'GET'])
 def android():
