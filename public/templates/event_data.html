@@ -109,14 +109,14 @@
                   type: 'POST',
                   url: '/background_process_test'
               })
-                  .done(function (data) {
-                      if (data.error){
-                          console.log("Error");
-                      }
-                      else {
-                          console.log(data.status);
-                      }
-                  });
+              .done(function (data) {
+                  if (data.error){
+                      console.log("Error");
+                  }
+                  else {
+                      console.log(data.status);
+                  }
+              });
     }
 </script>
 
@@ -151,7 +151,7 @@
               <img src="https://comm.gatech.edu/sites/default/files/images/brand-graphics/gt-ctn-lockup-logo.png" width="600px" height="550px" alt="Speaker 1" class="img-fluid">
               <div>
 <!--                <h3><a href="speaker-details.html">Malav Shah</a></h3>-->
-                  <p id="tooltip1"><a>{{item.title}}<span><b>Description:</b> {{item.description}} <br><b>Location:</b> {{item.location}}</span></a></p>
+                  <p id="tooltip1"><a>{{item.title}}<span><b>Description:</b> {{item.description}} <br><b>Location:</b> {{item.location}}<br><b>Cluster Number:</b> {{item.cluster_number}}</span></a></p>
                 <p></p>
 
               </div>
@@ -171,7 +171,7 @@
               <img src="https://comm.gatech.edu/sites/default/files/images/brand-graphics/gt-ctn-lockup-logo.png" width="600px" height="550px" alt="Speaker 1" class="img-fluid">
               <div>
 <!--                <h3><a href="speaker-details.html">Malav Shah</a></h3>-->
-                  <p id="tooltip1"><a>{{item.title}}<span><b>Description:</b> {{item.description}} <br><b>Location:</b> {{item.location}}</span></a></p>
+                  <p id="tooltip1"><a>{{item.title}}<span><b>Description:</b> {{item.description}} <br><b>Location:</b> {{item.location}}<br><b>Cluster Number:</b> {{item.cluster_number}}</span></a></p>
                 <p></p>
 
               </div>
@@ -192,7 +192,7 @@
               <img src="https://comm.gatech.edu/sites/default/files/images/brand-graphics/gt-ctn-lockup-logo.png" width="600px" height="550px" alt="Speaker 1" class="img-fluid">
               <div>
 <!--                <h3><a href="speaker-details.html">Malav Shah</a></h3>-->
-                  <p id="tooltip1"><a>{{item.title}}<span><b>Description:</b> {{item.description}} <br><b>Location:</b> {{item.location}}</span></a></p>
+                  <p id="tooltip1"><a>{{item.title}}<span><b>Description:</b> {{item.description}} <br><b>Location:</b> {{item.location}}<br><b>Cluster Number:</b> {{item.cluster_number}}</span></a></p>
                 <p></p>
 
               </div>

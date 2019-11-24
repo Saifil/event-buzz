@@ -5,6 +5,9 @@ import database.data.mongo_setup as mongo_setup
 import database.services.data_service as svc
 
 import json
+import random
+import operator
+
 
 app = Flask(__name__)
 
@@ -59,14 +62,30 @@ def events():
     pref = user.preferences
     weight_sum = user.weight_sum
 
-    print(pref)
+    # print(type(pref))
+
+    pref_dict = {}
+    is_one = True # check if all are one
     for key in pref:
         if pref[key] != 0:
-            cluster_num_events = pref[key] * NUM_EVENTS_DISPLAY // weight_sum
-            event_list += list(svc.get_event_by_cluster_limit(key, cluster_num_events))
-    # print(event_list)
-    # for event in event_list:
-    #     print(event['_id'])
+            if pref[key] != 1:
+                is_one = False
+            pref_dict[key] = pref[key]
+
+    print(pref_dict)
+
+    pref_sorted = sorted(pref_dict.items(), key=operator.itemgetter(1))
+    if not is_one: # not all are one
+        pref_sorted.reverse()
+    pref = dict(pref_sorted)
+
+    for key in pref:
+        # if pref[key] != 0:
+        cluster_num_events = pref[key] * NUM_EVENTS_DISPLAY // weight_sum
+        event_list += list(svc.get_event_by_cluster_limit(key, cluster_num_events))
+
+    # Shuffled all the events
+    # random.shuffle(event_list)
 
     return render_template('event_data.html', data=event_list)
 
@@ -117,6 +136,8 @@ def background_process_test():
     if request.method == 'POST':
         cluster = request.form['cluster']
         print(cluster)
+        ret = svc.update_user_preference(session['email'], cluster)
+
         return jsonify ({'status' : 'True'})
     return jsonify({'status': 'False'})
 

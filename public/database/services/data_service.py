@@ -110,7 +110,9 @@ def get_event_by_cluster_limit(cluster=0, limit=10):
     return events
 
 
-def update_user_preference(email, cluster=0, inc_value=1):
-    field = 'inc__preferences__' + str(cluster)
-    uptd = User.objects(email=email).update(**{field: inc_value})
+def update_user_preference(email, cluster='0'):
+    field = 'inc__preferences__' + cluster
+    uptd = User.objects(email=email).update(**{field: 1})
+    uptd_weight = User.objects(email=email).update(inc__weight_sum=1)
     return uptd
+

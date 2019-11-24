@@ -99,7 +99,7 @@ def main():
     # get_all_event_data()
     # event_list = svc.get_event_by_cluster_limit()
 
-    updt = svc.update_user_preference('e45@mail.com', 0, 1)
+    updt = svc.update_user_preference('e45@mail.com', '1')
     print(updt)
 
     return 0
