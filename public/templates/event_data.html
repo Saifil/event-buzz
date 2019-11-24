@@ -52,8 +52,10 @@
         <ul class="nav-menu">
           <li ><a href="{{ url_for('index') }}">Home</a></li>
           <li><a href="{{ url_for('register') }}">Sign Up</a></li>
-          <li class="menu-active"><a href="{{ url_for('login') }}">Login</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="{{ url_for('login') }}">Login</a></li>
+          <li class="menu-active"><a href="{{ url_for('events') }}">My Events</a></li>
+           <li><a href="{{ url_for('events') }}">All Events</a></li>
+            <li><a href="{{ url_for('login') }}">Logout</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
@@ -79,11 +81,7 @@
     ============================-->
     <section id="schedule" class="section-with-bg">
 
-      </div>
-                <div align="right"><button><a href="profile.html"> View Profile</a></button>
-                  <button><a href="all_events.html">View all events</a> </button>
-                  <button><a href="login.html">Logout</a></button>
-
+                <div align="right"><button><a href="profile.html"> View Profile</a>
                 </div>
 
   <main>
