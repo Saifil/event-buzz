@@ -28,6 +28,10 @@ def get_user_info(email, password):
     usr = User.objects().filter(email=email, password=password).first()
     return usr
 
+def get_user_pref(email):
+    pref = User.objects().filter(email=email).first()
+    return pref
+
 
 def insert_events(event_document_list):
     ret = Event.objects().insert(event_document_list)
@@ -71,10 +75,6 @@ def get_all_clusters():
     clstrs = Cluster.objects().filter()
     return clstrs
 
-
-def get_user_pref(email):
-    pref = User.objects().filter(email=email).first()
-    return pref
 
 
 def get_event_by_cluster_limit(cluster=0, limit=10):

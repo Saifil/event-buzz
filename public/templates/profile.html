@@ -51,35 +51,20 @@
       <nav id="nav-menu-container">
         <ul class="nav-menu">
           <li ><a href="{{ url_for('index') }}">Home</a></li>
-          <li class="menu-active"><a href="{{ url_for('events') }}">My Events</a></li>
+          <li><a href="{{ url_for('events') }}">My Events</a></li>
            <li><a href="{{ url_for('all_events') }}">All Events</a></li>
-            <li><a href="{{ url_for('profile') }}">Profile</a></li>
-
+            <li class="menu-active"><a href="{{ url_for('profile') }}">Profile</a></li>
             <li><a href="{{ url_for('login') }}">Logout</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
   </header><!-- #header -->
 
-  <!--==========================
-    Intro Section
-  ============================-->
-  
-
-    <!--==========================
-      About Section
-    ============================-->
-    
-
-    <!--==========================
-      Speakers Section
-    ============================-->
-    
-
     <!--==========================
       Schedule Section
     ============================-->
     <section id="schedule" class="section-with-bg">
+
 
 
   <main>
@@ -123,101 +108,17 @@
     <section id="speakers">
       <div class="container">
         <div class="section-header">
-          <h2>Suggested Events</h2>
+          <h2>Personal Information</h2>
 
         </div>
-        <div class="pageNav">
-        <a class="pageNumber menu-active" id = "p1" href="#page1">1</a>
-        <a class="pageNumber" id = "p2" href="#page2">2</a>
-        <a class="pageNumber" id = "p3" href="#page3">3</a>
-    </div>
-    <br>
-    <br>
-    <br>
-<div class="cssPagination">
-    <div class="pages">
-        <div class="page" id="page3">
-          <h3 style="text-align: center;">Page 3</h3>
-            <div class="row" align="Center">
-
-          {% for item in data[30:45] %}
-          <div class="col-lg-4 col-md-6">
-            <div class="speaker">
-<button name="{{ item._id }}" id =  "{{ item._id }}" value="{{ item.cluster_number }}" onclick="testf(this)"> Interested</button>
-              <img src="https://comm.gatech.edu/sites/default/files/images/brand-graphics/gt-ctn-lockup-logo.png" width="600px" height="550px" alt="Speaker 1" class="img-fluid">
-              <div>
-<!--                <h3><a href="speaker-details.html">Malav Shah</a></h3>-->
-                  <p id="tooltip1"><a>{{item.title}}<span><b>Description:</b> {{item.description}} <br><b>Location:</b> {{item.location}}<br><b>Cluster Number:</b> {{item.cluster_number}}</span></a></p>
-                <p></p>
-
-              </div>
-            </div>
+          <div style="font-size: 30px; text-align: center">
+              <b><label>Name: </label></b> {{ data.name }} <br>
+              <b><label>Email: </label></b> {{ data.email }} <br>
+              <b><label>Age: </label></b> {{ data.age }} <br>
+              <b><label>Major: </label></b> {{ data.major }} <br>
+              <b><label>Education: </label></b> {{ data.educ }} <br>
           </div>
-          {% endfor %}
-        </div>
       </div>
-        </div>
-        <div class="page" id="page2">
-          <h3 style="text-align: center;">Page 2</h3>
-            <div class="row" align="Center">
-          {% for item in data[15:30] %}
-          <div class="col-lg-4 col-md-6">
-            <div class="speaker">
-<button name="{{ item._id }}" id =  "{{ item._id }}" value="{{ item.cluster_number }}" onclick="testf(this)"> Interested</button>
-              <img src="https://comm.gatech.edu/sites/default/files/images/brand-graphics/gt-ctn-lockup-logo.png" width="600px" height="550px" alt="Speaker 1" class="img-fluid">
-              <div>
-<!--                <h3><a href="speaker-details.html">Malav Shah</a></h3>-->
-                  <p id="tooltip1"><a>{{item.title}}<span><b>Description:</b> {{item.description}} <br><b>Location:</b> {{item.location}}<br><b>Cluster Number:</b> {{item.cluster_number}}</span></a></p>
-                <p></p>
-
-              </div>
-            </div>
-          </div>
-          {% endfor %}
-        </div>
-      </div>
-        </div>
-        <div class="page" id="page1">
-                      <h3 style="text-align: center;">Page 1</h3>
-
-          <div class="row" align="Center">
-          {% for item in data[:15] %}
-          <div class="col-lg-4 col-md-6">
-            <div class="speaker">
-<button name="{{ item._id }}" id =  "{{ item._id }}" value="{{ item.cluster_number }}" onclick="testf(this)"> Interested</button>
-              <img src="https://comm.gatech.edu/sites/default/files/images/brand-graphics/gt-ctn-lockup-logo.png" width="600px" height="550px" alt="Speaker 1" class="img-fluid">
-              <div>
-<!--                <h3><a href="speaker-details.html">Malav Shah</a></h3>-->
-                  <p id="tooltip1"><a>{{item.title}}<span><b>Description:</b> {{item.description}} <br><b>Location:</b> {{item.location}}<br><b>Cluster Number:</b> {{item.cluster_number}}</span></a></p>
-                <p></p>
-
-              </div>
-            </div>
-          </div>
-          {% endfor %}
-        </div>
-      </div>
-        </div>
-    </div>
-    
-</div>
-        <!-- <div class="row" align="Center">
-          {% for item in data %}
-          <div class="col-lg-4 col-md-6">
-            <div class="speaker">
-
-              <img src="https://comm.gatech.edu/sites/default/files/images/brand-graphics/gt-ctn-lockup-logo.png" width="600px" height="550px" alt="Speaker 1" class="img-fluid">
-              <div>
-                <h3><a href="speaker-details.html">Malav Shah</a></h3>
-                  <p id="tooltip1"><a>{{item.title}}<span><b>Description:</b> {{item.description}} <br><b>Location:</b> {{item.location}}</span></a></p>
-                <p></p>
-
-              </div>
-            </div>
-          </div>
-          {% endfor %}
-        </div>
-      </div> -->
 
     </section>
 
@@ -276,7 +177,7 @@
               Password: <input type="password" class="form-control" name="password" id="password" placeholder="Password" />
               <div class="validation"></div>
             </div>
-            
+
             <div class="text-center"><button type="submit">Log Me in!</button></div>
             <br>
             <div class="text-center">Not registered? <a href="signup.html">Sign Up</a> here!</div>
@@ -296,9 +197,9 @@
           <h2>Created at</h2>
         </div>
 
-        
+
 <div style="width: 100%"><iframe width="100%" height="600" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=georgia%20Institute%20of%20technology+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.maps.ie/create-google-map/">Create Google Map</a></iframe></div><br />
-          
+
 
     </section> -->
 
@@ -327,7 +228,7 @@
             </ul>
           </div>
 
-          
+
 
           <div class="col-lg-3 col-md-6 footer-contact">
             <h4>Contact Us</h4>
@@ -353,7 +254,7 @@
       </div>
     </div>
 
-    
+
 
   <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
 
