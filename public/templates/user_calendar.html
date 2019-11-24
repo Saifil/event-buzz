@@ -1,23 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Calendar</title>
-    <style type="text/css">
-        body, html {
-            margin: 0; padding: 0; height: 100%; overflow: hidden;
-        }
-        #content {
-            position:absolute; left: 0; right: 0; bottom: 0; top: 0;
-        }
-    </style>
-</head>
-<body>
-    <script>
 
-    </script>
-    <div id="content">
+<head>
+  <meta charset="utf-8">
+  <title>Real Time Systems Project</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="../static/img/favicon.png" rel="icon">
+  <link href="../static/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="../static/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="../static/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="../static/lib/animate/animate.min.css" rel="stylesheet">
+  <link href="../static/lib/venobox/venobox.css" rel="stylesheet">
+  <link href="../static/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="../static/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+    Theme Name: TheEvent
+    Theme URL: https://bootstrapmade.com/theevent-conference-event-bootstrap-template/
+    Author: BootstrapMade.com
+    License: https://bootstrapmade.com/license/
+  ======================================================= -->
+</head>
+
+<body>
+
+  <!--==========================
+    Header
+  ============================-->
+  <header id="header">
+    <div class="container">
+
+      <div id="logo" class="pull-left">
+        <!-- Uncomment below if you prefer to use a text logo -->
+        <!-- <h1><a href="#main">C<span>o</span>nf</a></h1>-->
+      </div>
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li ><a href="{{ url_for('index') }}">Home</a></li>
+          <li><a href="{{ url_for('events') }}">My Events</a></li>
+           <li><a href="{{ url_for('all_events') }}">All Events</a></li>
+            <li class="menu-active"><a href="{{ url_for('user_calendar') }}">Calendar</a></li>
+            <li><a href="{{ url_for('profile') }}">Profile</a></li>
+            <li><a href="{{ url_for('login') }}">Logout</a></li>
+
+        </ul>
+      </nav><!-- #nav-menu-container -->
+    </div>
+  </header><!-- #header -->
+
+  <!--==========================
+    Intro Section
+  ============================-->
+
+
+    <!--==========================
+      About Section
+    ============================-->
+
+
+    <!--==========================
+      Speakers Section
+    ============================-->
+
+
+    <!--==========================
+      Schedule Section
+    ============================-->
+    <section id="schedule" class="section-with-bg">
+      <div class="container wow fadeInUp">
+        <div class="section-header">
+          <h2>CALENDAR </h2>
+        </div>
+
+        </div>
+
+
+    </section>
+
+
+
+            <div id="content">
         <iframe src="https://calendar.google.com/calendar/embed?src={{data.email}}&ctz=America%2FNew_York" style="border: 0" width="100%" height="100%" frameborder="0" scrolling="no"></iframe>
     </div>
+
+
+
+
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-info">
+            <img src="../static/img/logo.png" alt="TheEvenet">
+            <p>A CS 6235 project to match students with events that might interest them</p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="fa fa-angle-right"></i> <a href="index.html">Home</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="signup.html">Sign Up</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="login.html">Login</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h4>Contact Us</h4>
+            <p>
+              Georgia Institute of Technology <br>
+              Atlanta, GA<br>
+              United States <br>
+              <strong>Phone:</strong> +1 123 4567 89<br>
+              <strong>Email:</strong> info@example.com<br>
+            </p>
+
+            <div class="social-links">
+              <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+              <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+              <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+              <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
+              <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+
+  <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
+
+  <!-- JavaScript Libraries -->
+  <script src="../static/lib/jquery/jquery.min.js"></script>
+  <script src="../static/lib/jquery/jquery-migrate.min.js"></script>
+  <script src="../static/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../static/lib/easing/easing.min.js"></script>
+  <script src="../static/lib/superfish/hoverIntent.js"></script>
+  <script src="../static/lib/superfish/superfish.min.js"></script>
+  <script src="../static/lib/wow/wow.min.js"></script>
+  <script src="../static/lib/venobox/venobox.min.js"></script>
+  <script src="../static/lib/owlcarousel/owl.carousel.min.js"></script>
+
+  <!-- Contact Form JavaScript File -->
+  <script src="../static/contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="../static/js/main.js"></script>
+  </footer>
 </body>
+
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+{#<!DOCTYPE html>#}
+{#<html lang="en">#}
+{#<head>#}
+{#    <meta charset="UTF-8">#}
+{#    <title>Calendar</title>#}
+{#    <style type="text/css">#}
+{#        body, html {#}
+{#            margin: 0; padding: 0; height: 100%; overflow: hidden;#}
+{#        }#}
+{#        #content {#}
+{#            position:absolute; left: 0; right: 0; bottom: 0; top: 0;#}
+{#        }#}
+{#    </style>#}
+{#</head>#}
+{#<body>#}
+{#    <script>#}
+{##}
+{#    </script>#}
+{#    <div id="content">#}
+{#        <iframe src="https://calendar.google.com/calendar/embed?src={{data.email}}&ctz=America%2FNew_York" style="border: 0" width="100%" height="100%" frameborder="0" scrolling="no"></iframe>#}
+{#    </div>#}
+{#</body>#}
+{#</html>#}

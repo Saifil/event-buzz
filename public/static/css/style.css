@@ -20,6 +20,10 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+#content {
+  position:relative; left: 0; right: 0; bottom: 0; top: 0;
+  height: 700px;
+        }
 .pageNav{
   font-size: 25px;
   text-align: center;

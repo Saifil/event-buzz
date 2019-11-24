@@ -165,7 +165,7 @@ def register():
         if users is None:
             new_usr = svc.create_new_user(name, email, password, age, educ, major, preferences, len(cluster_list))
             session['email'] = new_usr.email
-            return redirect(url_for('index'))
+            return redirect(url_for('events'))
             # return render_template('index.html')
 
         # if existing_user is None:

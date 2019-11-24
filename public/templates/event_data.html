@@ -53,6 +53,8 @@
           <li ><a href="{{ url_for('index') }}">Home</a></li>
           <li class="menu-active"><a href="{{ url_for('events') }}">My Events</a></li>
            <li><a href="{{ url_for('all_events') }}">All Events</a></li>
+                        <li><a href="{{ url_for('user_calendar') }}">Calendar</a></li>
+
             <li><a href="{{ url_for('profile') }}">Profile</a></li>
 
             <li><a href="{{ url_for('login') }}">Logout</a></li>
@@ -93,10 +95,10 @@
      </ul> -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script type=text/javascript>
-
     function testf(ele){
         var vid = ele.id;
         var cluster_no = ele.value;
+        document.getElementById(vid).disabled = true;
         console.log(vid);
         console.log(cluster_no);
         $.ajax({
