@@ -7,10 +7,9 @@ import database.services.data_service as svc
 import json
 import random
 import operator
-
+import user_calendar as ucal
 
 app = Flask(__name__)
-
 
 app.config['MONGO_DBNAME'] = 'eventbuzz'
 app.config['MONGO_URI'] = 'mongodb://127.0.0.1:27017/eventbuzz'
@@ -20,13 +19,14 @@ mongo = PyMongo(app)
 NUM_CLUSTER = 50
 NUM_EVENTS_DISPLAY = 50
 
+
 @app.route('/')
 def index():
     # if 'email' in session:
-        # redirect user to his event page
-        # TODO: display user name on event page | NOT IMP
-        # return redirect(url_for('events'))
-        # return 'You are logged in as ' + session['email']
+    # redirect user to his event page
+    # TODO: display user name on event page | NOT IMP
+    # return redirect(url_for('events'))
+    # return 'You are logged in as ' + session['email']
 
     return render_template('index.html')
     # return render_template('signup.html')
@@ -65,7 +65,7 @@ def events():
     # print(type(pref))
 
     pref_dict = {}
-    is_one = True # check if all are one
+    is_one = True  # check if all are one
     for key in pref:
         if pref[key] != 0:
             if pref[key] != 1:
@@ -75,7 +75,7 @@ def events():
     print(pref_dict)
 
     pref_sorted = sorted(pref_dict.items(), key=operator.itemgetter(1))
-    if not is_one: # not all are one
+    if not is_one:  # not all are one
         pref_sorted.reverse()
     pref = dict(pref_sorted)
 
@@ -131,6 +131,7 @@ def register():
     return render_template('signup.html', data=clstrs)
     # return render_template('register.html')
 
+
 @app.route('/background_process_test', methods=['POST', 'GET'])
 def background_process_test():
     if request.method == 'POST':
@@ -138,8 +139,26 @@ def background_process_test():
         print(cluster)
         ret = svc.update_user_preference(session['email'], cluster)
 
-        return jsonify ({'status' : 'True'})
+        # TODO: add the event to the calender
+        # email = 'myubereats.free07@gmail.com'
+        # service = ucal.authenticate_user(email)
+        # calendar_id, time_zone = ucal.get_calendar_id_and_timezone(service)
+
+        return jsonify({'status': 'True'})
     return jsonify({'status': 'False'})
+
+
+@app.route('/user_calendar')
+def user_calendar():
+    data = {'email': 'myubereats.free07@gmail.com'}
+    return render_template('user_calendar.html', data=data)
+    # email = 'myubereats.free07@gmail.com'
+    # service = ucal.authenticate_user(email)
+    # calendar_id, time_zone = ucal.get_calendar_id_and_timezone(service)
+    # # print(calendar_id)
+    #
+    # return calendar_id
+
 
 @app.route('/android', methods=['POST', 'GET'])
 def android():
@@ -154,6 +173,7 @@ def android():
 
     # return json.dumps(event_list[0], default=json_util.default)
     # return json.dumps(event_list)
+
 
 # @app.route('/register', methods=['POST', 'GET'])
 # def register():
@@ -180,6 +200,7 @@ def android():
 """
 @Android Server functions
 """
+
 
 @app.route('/login_android', methods=['POST'])
 def login_android():
