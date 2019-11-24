@@ -78,9 +78,9 @@ def make_cluster_collection():
 
 def main():
     mongo_setup.global_init()  # Connect to the db
-
-    if state.active_account is None:
-        print("No active session")
+    #
+    # if state.active_account is None:
+    #     print("No active session")
 
     # scrape.save_to_csv()
 
@@ -98,6 +98,9 @@ def main():
     # make_cluster_collection()
     # get_all_event_data()
     # event_list = svc.get_event_by_cluster_limit()
+
+    updt = svc.update_user_preference('e45@mail.com', 0, 1)
+    print(updt)
 
     return 0
 

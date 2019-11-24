@@ -16,3 +16,4 @@ dependencies:
   - flask
   - Flask-PyMongo
   - scikit-learn
+  - flask-ngrok

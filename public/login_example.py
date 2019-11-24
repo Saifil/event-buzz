@@ -4,7 +4,10 @@ from flask_pymongo import PyMongo
 import database.data.mongo_setup as mongo_setup
 import database.services.data_service as svc
 
+import json
+
 app = Flask(__name__)
+
 
 app.config['MONGO_DBNAME'] = 'eventbuzz'
 app.config['MONGO_URI'] = 'mongodb://127.0.0.1:27017/eventbuzz'
@@ -51,15 +54,17 @@ def events():
     event_list = []
 
     usr_email = session['email']
+    print(usr_email)
     user = svc.get_user_pref(usr_email)
     pref = user.preferences
     weight_sum = user.weight_sum
 
+    print(pref)
     for key in pref:
         if pref[key] != 0:
             cluster_num_events = pref[key] * NUM_EVENTS_DISPLAY // weight_sum
             event_list += list(svc.get_event_by_cluster_limit(key, cluster_num_events))
-    print(event_list)
+    # print(event_list)
     # for event in event_list:
     #     print(event['_id'])
 
@@ -108,6 +113,21 @@ def register():
     # return render_template('register.html')
 
 
+
+@app.route('/android', methods=['POST', 'GET'])
+def android():
+    event_list = svc.get_all_event_data()
+    """
+    long time = 1566518400000L;
+    SimpleDateFormat sdf = new SimpleDateFormat();
+    sdf.setTimeZone(TimeZone.getTimeZone("UTC"));
+    System.out.println(sdf.format(new Date(time)));
+    """
+    return event_list.to_json()
+
+    # return json.dumps(event_list[0], default=json_util.default)
+    # return json.dumps(event_list)
+
 # @app.route('/register', methods=['POST', 'GET'])
 # def register():
 #     if request.method == 'POST':
@@ -128,6 +148,26 @@ def register():
 #         return 'That username already exists!'
 #
 #     return render_template('register.html')
+
+
+"""
+@Android Server functions
+"""
+
+@app.route('/login_android', methods=['POST'])
+def login_android():
+    if request.method == 'POST':
+        # TODO: protect from injection attack
+        email = request.form['email']
+        password = request.form['password']
+
+        user = svc.get_user_info(email, password)
+        if user is not None:
+            response = {"status": "true", "email": user.email, "name": user.name, "age": user.age}
+            return json.dumps(response)
+        else:
+            response = {"status": "false"}
+            return json.dumps(response)
 
 
 if __name__ == '__main__':
