@@ -8,6 +8,7 @@ import json
 import random
 import operator
 import user_calendar as ucal
+import datetime
 
 app = Flask(__name__)
 
@@ -72,12 +73,12 @@ def events():
                 is_one = False
             pref_dict[key] = pref[key]
 
-    print(pref_dict)
-
     pref_sorted = sorted(pref_dict.items(), key=operator.itemgetter(1))
     if not is_one:  # not all are one
         pref_sorted.reverse()
     pref = dict(pref_sorted)
+
+    print(f'User Weight Preference:\n {pref_dict}')
 
     for key in pref:
         # if pref[key] != 0:
@@ -92,38 +93,6 @@ def events():
 @app.route('/all_events', methods=['POST', 'GET'])
 def all_events():
     event_list = svc.get_all_event_data()
-    # event_list = []
-    #
-    # usr_email = session['email']
-    # print(usr_email)
-    # user = svc.get_user_pref(usr_email)
-    # pref = user.preferences
-    # weight_sum = user.weight_sum
-    #
-    # # print(type(pref))
-    #
-    # pref_dict = {}
-    # is_one = True # check if all are one
-    # for key in pref:
-    #     if pref[key] != 0:
-    #         if pref[key] != 1:
-    #             is_one = False
-    #         pref_dict[key] = pref[key]
-    #
-    # print(pref_dict)
-    #
-    # pref_sorted = sorted(pref_dict.items(), key=operator.itemgetter(1))
-    # if not is_one: # not all are one
-    #     pref_sorted.reverse()
-    # pref = dict(pref_sorted)
-    #
-    # for key in pref:
-    #     # if pref[key] != 0:
-    #     cluster_num_events = pref[key] * NUM_EVENTS_DISPLAY // weight_sum
-    #     event_list += list(svc.get_event_by_cluster_limit(key, cluster_num_events))
-    #
-    # # Shuffled all the events
-    # random.shuffle(event_list)
 
     return render_template('all_event_data.html', data=event_list)
 
@@ -132,8 +101,8 @@ def all_events():
 def profile():
     usr_email = session['email']
     user = svc.get_user_pref(usr_email)
-    print(user.name)
-    print("JHIHIIHIIHIHHIHIIHIH")
+    # print(user.name)
+    # print("JHIHIIHIIHIHHIHIIHIH")
 
     return render_template('profile.html', data=user)
 
@@ -189,10 +158,31 @@ def background_process_test():
         print(cluster)
         ret = svc.update_user_preference(session['email'], cluster)
 
-        # TODO: add the event to the calender
-        # email = 'myubereats.free07@gmail.com'
-        # service = ucal.authenticate_user(email)
-        # calendar_id, time_zone = ucal.get_calendar_id_and_timezone(service)
+        return jsonify({'status': 'True'})
+    return jsonify({'status': 'False'})
+
+
+@app.route('/background_calendar_add', methods=['POST'])
+def background_calendar_add():
+    if request.method == 'POST':
+        event_id = request.form['event_id']
+        print(event_id)
+
+        # get event information
+        event = svc.get_event_by_id(event_id)
+        formatted_start = event.st_date.replace(hour=event.st_time // 60, minute=event.st_time % 60)\
+            .strftime("%Y-%m-%dT%H:%M:%S")
+        formatted_end = event.end_date.replace(hour=event.end_time // 60, minute=event.end_time % 60)\
+            .strftime("%Y-%m-%dT%H:%M:%S")
+
+        # get calendar auth
+        email = session['email']
+        service = ucal.authenticate_user(email)
+        calendar_id, time_zone = ucal.get_calendar_id_and_timezone(service)
+
+        calendar_event = ucal.add_event_to_calendar(service, calendar_id, event.title, event.location, event.description
+                                                    , formatted_start, formatted_end, time_zone)
+        print(calendar_event['start']['dateTime'])
 
         return jsonify({'status': 'True'})
     return jsonify({'status': 'False'})
@@ -200,7 +190,7 @@ def background_process_test():
 
 @app.route('/user_calendar')
 def user_calendar():
-    data = {'email': 'myubereats.free07@gmail.com'}
+    data = {'email': session['email']}
     return render_template('user_calendar.html', data=data)
     # email = 'myubereats.free07@gmail.com'
     # service = ucal.authenticate_user(email)

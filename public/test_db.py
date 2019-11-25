@@ -76,6 +76,17 @@ def make_cluster_collection():
         cluster_name = "dummy_name"
         clstr = svc.create_new_cluster(i, cluster_name, cluster_count)
 
+
+def assign_cluster_names():
+    with open("output/cluster_names.txt") as fp:
+        line = fp.readline().rstrip('\n')
+
+        cluster_number = 0
+        while line:
+            uptd = svc.update_cluster_names(cluster_number, line)
+            line = fp.readline().rstrip('\n')
+            cluster_number += 1
+
 def main():
     mongo_setup.global_init()  # Connect to the db
     #
@@ -99,8 +110,11 @@ def main():
     # get_all_event_data()
     # event_list = svc.get_event_by_cluster_limit()
 
-    updt = svc.update_user_preference('e45@mail.com', '1')
-    print(updt)
+    # updt = svc.update_user_preference('e45@mail.com', '1')
+    # print(updt)
+
+    # gatech_logo.png
+    assign_cluster_names()
 
     return 0
 

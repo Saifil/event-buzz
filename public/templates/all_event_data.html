@@ -130,7 +130,7 @@
           <div class="col-lg-4 col-md-6">
             <div class="speaker">
 <button name="{{ item._id }}" id =  "{{ item._id }}" value="{{ item.cluster_number }}" onclick="testf(this)"> Interested</button>
-              <img src="https://comm.gatech.edu/sites/default/files/images/brand-graphics/gt-ctn-lockup-logo.png" width="600px" height="550px" alt="Speaker 1" class="img-fluid">
+              <img src="{{item.image_url}}" width="600px" height="550px" alt="Speaker 1" class="img-fluid">
               <div>
 <!--                <h3><a href="speaker-details.html">Malav Shah</a></h3>-->
                   <p id="tooltip1"><a>{{item.title}}<span><b>Description:</b> {{item.description}} <br><b>Location:</b> {{item.location}}<br><b>Cluster Number:</b> {{item.cluster_number}}</span></a></p>
@@ -150,7 +150,7 @@
           <div class="col-lg-4 col-md-6">
             <div class="speaker">
 <button name="{{ item._id }}" id =  "{{ item._id }}" value="{{ item.cluster_number }}" onclick="testf(this)"> Interested</button>
-              <img src="https://comm.gatech.edu/sites/default/files/images/brand-graphics/gt-ctn-lockup-logo.png" width="600px" height="550px" alt="Speaker 1" class="img-fluid">
+              <img src="{{item.image_url}}" width="600px" height="550px" alt="Speaker 1" class="img-fluid">
               <div>
 <!--                <h3><a href="speaker-details.html">Malav Shah</a></h3>-->
                   <p id="tooltip1"><a>{{item.title}}<span><b>Description:</b> {{item.description}} <br><b>Location:</b> {{item.location}}<br><b>Cluster Number:</b> {{item.cluster_number}}</span></a></p>
@@ -171,7 +171,8 @@
           <div class="col-lg-4 col-md-6">
             <div class="speaker">
 <button name="{{ item._id }}" id =  "{{ item._id }}" value="{{ item.cluster_number }}" onclick="testf(this)"> Interested</button>
-              <img src="https://comm.gatech.edu/sites/default/files/images/brand-graphics/gt-ctn-lockup-logo.png" width="600px" height="550px" alt="Speaker 1" class="img-fluid">
+<!--              <img src="https://comm.gatech.edu/sites/default/files/images/brand-graphics/gt-ctn-lockup-logo.png" width="600px" height="550px" alt="Speaker 1" class="img-fluid">-->
+              <img src="{{item.image_url}}" width="600px" height="550px" alt="Speaker 1" class="img-fluid">
               <div>
 <!--                <h3><a href="speaker-details.html">Malav Shah</a></h3>-->
                   <p id="tooltip1"><a>{{item.title}}<span><b>Description:</b> {{item.description}} <br><b>Location:</b> {{item.location}}<br><b>Cluster Number:</b> {{item.cluster_number}}</span></a></p>

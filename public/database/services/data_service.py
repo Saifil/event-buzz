@@ -51,6 +51,10 @@ def get_events_by_clusters(cluster=0):
     return events
 
 
+def get_event_by_id(event_id):
+    event = Event.objects().filter(pk=event_id).first()
+    return event
+
 def get_unique_descriptions():
     events = Event.objects.distinct('description')
     return events
@@ -114,5 +118,9 @@ def update_user_preference(email, cluster='0'):
     field = 'inc__preferences__' + cluster
     uptd = User.objects(email=email).update(**{field: 1})
     uptd_weight = User.objects(email=email).update(inc__weight_sum=1)
+    return uptd
+
+def update_cluster_names(cluster_number=0, name='Festivals'):
+    uptd = Cluster.objects(number=cluster_number).update(set__name=name)
     return uptd
 
